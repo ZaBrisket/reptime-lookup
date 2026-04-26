@@ -1,0 +1,44 @@
+name: Refresh reptime-help.json
+
+# Runs once a month (3am UTC on the 3rd) and on demand from the Actions tab.
+# Re-scrapes reptime.help, rebuilds reptime-help.json, commits if changed.
+# GitHub Pages auto-redeploys on the resulting push.
+
+on:
+  schedule:
+    - cron: '17 3 3 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Python deps
+        run: pip install --quiet beautifulsoup4
+
+      - name: Re-scrape and rebuild
+        run: bash refresh.sh
+
+      - name: Commit if changed
+        run: |
+          if [[ -n "$(git status --porcelain reptime-help.json)" ]]; then
+            git config user.name  "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add reptime-help.json
+            git commit -m "Auto-refresh reptime-help.json ($(date -u +'%Y-%m-%d'))"
+            git push
+            echo "::notice::reptime-help.json was updated and pushed"
+          else
+            echo "::notice::No changes to reptime-help.json"
+          fi

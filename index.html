@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>RepTime Lookup</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hdr">
+    <h1>
+      <span class="brand">REPTIME LOOKUP</span><span class="sep">//</span><span id="hdr-records">…</span><span class="sep">//</span><span class="ver">V1</span>
+    </h1>
+  </header>
+
+  <main class="main">
+    <div class="search-row">
+      <span class="search-input-wrap">
+        <input
+          id="q"
+          type="search"
+          autocomplete="off"
+          autofocus
+          placeholder="QUERY: SUBMARINER 116610LN / DAYTONA / PATEK 5167 / PAM 005"
+        />
+      </span>
+      <span id="count" class="count" aria-live="polite"></span>
+    </div>
+
+    <div id="banner" class="banner" hidden></div>
+
+    <!-- View 1: search results (when search box has text) -->
+    <section id="results" class="results"></section>
+
+    <!-- View 2: browse grid (default when search is empty) -->
+    <section id="browse-view" class="browse-view" hidden>
+      <div class="browse-toolbar">
+        <h2 class="browse-title">Browse</h2>
+        <div id="brand-chips" class="brand-chips"></div>
+      </div>
+      <div id="family-grid" class="family-grid"></div>
+    </section>
+
+    <!-- View 3: family detail (clicked a card) -->
+    <section id="family-detail" class="family-detail" hidden>
+      <a href="#browse" class="back-link">← Back to browse</a>
+      <div id="family-detail-body"></div>
+    </section>
+  </main>
+
+  <footer class="ftr">
+    <span id="stats"></span>
+    <a href="https://www.reddit.com/r/RepTime/wiki/index/" target="_blank" rel="noopener">r/RepTime wiki</a>
+    <a href="https://reptime.help/" target="_blank" rel="noopener">reptime.help</a>
+  </footer>
+
+  <!-- Factory / glossary modal -->
+  <div id="modal" class="modal" hidden>
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-card" role="dialog" aria-modal="true">
+      <button class="modal-close" data-close aria-label="Close">×</button>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
