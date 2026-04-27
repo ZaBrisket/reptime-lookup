@@ -1,0 +1,6160 @@
+{
+  "metadata": {
+    "site": "reptime.help",
+    "description": "Community-maintained reference for replica watch buyers — trusted dealers, factory guide, glossary, and newbie walkthrough.",
+    "sections": [
+      "trusted_dealers",
+      "who_makes_the_best",
+      "newbie_guide",
+      "glossary",
+      "factories"
+    ]
+  },
+  "trusted_dealers": {
+    "columns": [
+      "Dealer",
+      "Website",
+      "WhatsApp",
+      "Email",
+      "Forums",
+      "Notes"
+    ],
+    "dealers": [
+      {
+        "name": "Andiot Watches",
+        "website": "andiotwatches.vip",
+        "website_url": "https://andiotwatches.vip",
+        "whatsapp": "+44 7856 977569",
+        "whatsapp_url": "https://wa.me/447856977569",
+        "email": null,
+        "forum": "RWI",
+        "notes": null
+      },
+      {
+        "name": "BIGGE TIME",
+        "website": "biggetime.io",
+        "website_url": "https://biggetime.io/",
+        "whatsapp": "+852 84114090",
+        "whatsapp_url": "https://wa.me/85284114090",
+        "email": "biggetime@gmail.com",
+        "forum": "REPGEEK",
+        "notes": null
+      },
+      {
+        "name": "ChazingTime",
+        "website": "chazingtime08.io",
+        "website_url": "https://chazingtime08.io/",
+        "whatsapp": null,
+        "whatsapp_url": null,
+        "email": null,
+        "forum": "RWI",
+        "notes": null
+      },
+      {
+        "name": "Dealer Clocks",
+        "website": "dealerclocks.io",
+        "website_url": "https://www.dealerclocks.io/",
+        "whatsapp": null,
+        "whatsapp_url": null,
+        "email": null,
+        "forum": "RWI",
+        "notes": null
+      },
+      {
+        "name": "DR. TIME",
+        "website": null,
+        "website_url": null,
+        "whatsapp": null,
+        "whatsapp_url": null,
+        "email": "drtime888@gmail.com",
+        "forum": "REPGEEK",
+        "notes": "Contact unconfirmed"
+      },
+      {
+        "name": "DukeReps (Duke Jones)",
+        "website": "dukereps.com",
+        "website_url": "https://dukereps.com",
+        "whatsapp": "+852 6744 9430",
+        "whatsapp_url": "https://wa.me/85267449430",
+        "email": "duke@cnbevogue.com",
+        "forum": "REPGEEK",
+        "notes": null
+      },
+      {
+        "name": "EU STOCK",
+        "website": null,
+        "website_url": null,
+        "whatsapp": null,
+        "whatsapp_url": null,
+        "email": null,
+        "forum": "RWI",
+        "notes": "EU domestic shipping"
+      },
+      {
+        "name": "FICOTIME",
+        "website": null,
+        "website_url": null,
+        "whatsapp": "+852 4694 4951",
+        "whatsapp_url": "https://wa.me/85246944951",
+        "email": "ficotime@hotmail.com",
+        "forum": "REPGEEK",
+        "notes": null
+      },
+      {
+        "name": "GEEK TIME",
+        "website": "geektime.io",
+        "website_url": "https://geektime.io",
+        "whatsapp": "+852 5574 2295",
+        "whatsapp_url": "https://wa.me/85255742295",
+        "email": null,
+        "forum": "REPGEEK",
+        "notes": null
+      },
+      {
+        "name": "Hontwatch",
+        "website": "s.wsxc.cn/TJUCP1",
+        "website_url": "https://s.wsxc.cn/TJUCP1",
+        "whatsapp": "+86 13113307655",
+        "whatsapp_url": "https://wa.me/8613113307655",
+        "email": "hontwatch@gmail.com",
+        "forum": "RWI REPGEEK",
+        "notes": null
+      },
+      {
+        "name": "InTime Watches",
+        "website": "intime06.co",
+        "website_url": "https://www.intime06.co",
+        "whatsapp": null,
+        "whatsapp_url": null,
+        "email": "intimecs@gmail.com",
+        "forum": "RWI REPGEEK",
+        "notes": null
+      },
+      {
+        "name": "JTime Watch Store",
+        "website": "jtime.io",
+        "website_url": "https://jtime.io",
+        "whatsapp": "+86 139 2886 9440",
+        "whatsapp_url": "https://wa.me/8613928869440",
+        "email": "jtime.sales@gmail.com",
+        "forum": "RWI REPGEEK RWG",
+        "notes": null
+      },
+      {
+        "name": "Marvellous Replica",
+        "website": null,
+        "website_url": null,
+        "whatsapp": null,
+        "whatsapp_url": null,
+        "email": "marvellousreplica@gmail.com",
+        "forum": "RWI RWG",
+        "notes": null
+      },
+      {
+        "name": "MIROTIME",
+        "website": "mirotime.pro",
+        "website_url": "https://mirotime.pro/",
+        "whatsapp": "+86 17833984262",
+        "whatsapp_url": "https://wa.me/8617833984262",
+        "email": "mirotimestore@gmail.com",
+        "forum": "REPGEEK",
+        "notes": null
+      },
+      {
+        "name": "MODERNTIME",
+        "website": "moderntimewatch.io",
+        "website_url": "https://moderntimewatch.io/",
+        "whatsapp": "+1 626 887 5819",
+        "whatsapp_url": "https://wa.me/16268875819",
+        "email": "watch.moderntimes@gmail.com",
+        "forum": "REPGEEK",
+        "notes": null
+      },
+      {
+        "name": "narikaa",
+        "website": null,
+        "website_url": null,
+        "whatsapp": null,
+        "whatsapp_url": null,
+        "email": null,
+        "forum": "RWI REPGEEK",
+        "notes": null
+      },
+      {
+        "name": "NECOCLOCK",
+        "website": "necoclock.ru",
+        "website_url": "https://necoclock.ru/",
+        "whatsapp": "+852 55373282",
+        "whatsapp_url": "https://wa.me/85255373282",
+        "email": "necoclock@outlook.com",
+        "forum": "REPGEEK",
+        "notes": null
+      },
+      {
+        "name": "PURETIME",
+        "website": "puretimewatch88.io",
+        "website_url": "https://puretimewatch88.io/",
+        "whatsapp": null,
+        "whatsapp_url": null,
+        "email": "sales@puretimewatch88.io",
+        "forum": "RWI REPGEEK",
+        "notes": null
+      },
+      {
+        "name": "RepSource (UK)",
+        "website": null,
+        "website_url": null,
+        "whatsapp": null,
+        "whatsapp_url": null,
+        "email": null,
+        "forum": "RWI",
+        "notes": "UK-based stock"
+      },
+      {
+        "name": "SHOPS TIME",
+        "website": null,
+        "website_url": null,
+        "whatsapp": "+44 7456 415100",
+        "whatsapp_url": "https://wa.me/447456415100",
+        "email": "shopstimewatch@gmail.com",
+        "forum": "REPGEEK",
+        "notes": null
+      },
+      {
+        "name": "SUPER MIRRORS",
+        "website": "t.me/+GPlVsOyo6eAwYTBk",
+        "website_url": "https://t.me/+GPlVsOyo6eAwYTBk",
+        "whatsapp": null,
+        "whatsapp_url": null,
+        "email": "supermsales@proton.me",
+        "forum": "RWI REPGEEK",
+        "notes": null
+      },
+      {
+        "name": "The Watch Mansion (TWM)",
+        "website": null,
+        "website_url": null,
+        "whatsapp": null,
+        "whatsapp_url": null,
+        "email": "thewatchmansiontwm@gmail.com",
+        "forum": "RWI",
+        "notes": null
+      },
+      {
+        "name": "THELEOTIME (LEO)",
+        "website": "theleotime.com",
+        "website_url": "http://theleotime.com",
+        "whatsapp": "+86 18521567449",
+        "whatsapp_url": "https://wa.me/8618521567449",
+        "email": "leosrepwatches@gmail.com",
+        "forum": "REPGEEK",
+        "notes": null
+      },
+      {
+        "name": "Theonewatches",
+        "website": "theonewatches.ws",
+        "website_url": "https://www.theonewatches.ws",
+        "whatsapp": "+852 5504 2301",
+        "whatsapp_url": "https://wa.me/85255042301",
+        "email": "service@vip.theonewatch.cc",
+        "forum": "RWI REPGEEK RWG",
+        "notes": "Domain varies by forum"
+      },
+      {
+        "name": "TKwatch",
+        "website": "tkwatch.xyz",
+        "website_url": "https://tkwatch.xyz/",
+        "whatsapp": null,
+        "whatsapp_url": null,
+        "email": null,
+        "forum": "RWI",
+        "notes": null
+      },
+      {
+        "name": "Toro Bravo",
+        "website": "toro.fun",
+        "website_url": "https://www.toro.fun",
+        "whatsapp": null,
+        "whatsapp_url": null,
+        "email": "torobravo.rg@gmail.com",
+        "forum": "RWI REPGEEK RWG",
+        "notes": null
+      },
+      {
+        "name": "Truetime168",
+        "website": null,
+        "website_url": null,
+        "whatsapp": null,
+        "whatsapp_url": null,
+        "email": "shayijjx@gmail.com",
+        "forum": "RWI",
+        "notes": null
+      },
+      {
+        "name": "Trusty Time",
+        "website": "trustytime168.io",
+        "website_url": "https://www.trustytime168.io",
+        "whatsapp": null,
+        "whatsapp_url": null,
+        "email": "trustytime@protonmail.com",
+        "forum": "RWI REPGEEK RWG",
+        "notes": "Active since ~2002"
+      },
+      {
+        "name": "USA IN STOCK (Mid-West)",
+        "website": null,
+        "website_url": null,
+        "whatsapp": null,
+        "whatsapp_url": null,
+        "email": null,
+        "forum": "RWI",
+        "notes": "US domestic only"
+      },
+      {
+        "name": "WatchFinder",
+        "website": null,
+        "website_url": null,
+        "whatsapp": null,
+        "whatsapp_url": null,
+        "email": "watchfinder@runbox.com",
+        "forum": "RWI RWG",
+        "notes": null
+      },
+      {
+        "name": "WBK Time",
+        "website": null,
+        "website_url": null,
+        "whatsapp": null,
+        "whatsapp_url": null,
+        "email": "davidsenjpn@yahoo.com",
+        "forum": "RWI REPGEEK",
+        "notes": "US/economy options"
+      },
+      {
+        "name": "WSONGTIME",
+        "website": "wsongtime.com",
+        "website_url": "https://www.wsongtime.com/",
+        "whatsapp": null,
+        "whatsapp_url": null,
+        "email": "wsongtime@gmail.com",
+        "forum": "REPGEEK",
+        "notes": null
+      },
+      {
+        "name": "YukiWatch",
+        "website": "yukiwatch.net",
+        "website_url": "https://www.yukiwatch.net",
+        "whatsapp": null,
+        "whatsapp_url": null,
+        "email": "sale@yukiwatch.com",
+        "forum": "RWI REPGEEK",
+        "notes": "Vintage focus"
+      }
+    ]
+  },
+  "who_makes_the_best": [
+    {
+      "brand": "Rolex",
+      "model_family": "Submariner",
+      "reference": "126610LN/LV/LB",
+      "movement": "3235 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        },
+        {
+          "rank": 2,
+          "factory": "ARF"
+        },
+        {
+          "rank": 3,
+          "factory": "ZF"
+        }
+      ],
+      "tier": "NWBIG",
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Submariner",
+      "reference": "126610 (Asian)",
+      "movement": "2836 Asian",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF youth"
+        },
+        {
+          "rank": 2,
+          "factory": "GMF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Submariner",
+      "reference": "Gold/two-tone",
+      "movement": "3235 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        },
+        {
+          "rank": 2,
+          "factory": "ARF"
+        },
+        {
+          "rank": 3,
+          "factory": "ZF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Submariner",
+      "reference": "Gold/two-tone (Asian)",
+      "movement": "2836 Asian",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "GMF"
+        },
+        {
+          "rank": 2,
+          "factory": "BP"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Submariner",
+      "reference": "124060 (no date)",
+      "movement": "3230 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        },
+        {
+          "rank": 2,
+          "factory": "ARF"
+        },
+        {
+          "rank": 3,
+          "factory": "ZF"
+        }
+      ],
+      "tier": "NWBIG",
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Submariner",
+      "reference": "114060 (no date)",
+      "movement": "3130 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        }
+      ],
+      "tier": "NWBIG",
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Submariner",
+      "reference": "114060 (Asian)",
+      "movement": "2836 Asian",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "GMF"
+        },
+        {
+          "rank": 2,
+          "factory": "BP"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Submariner",
+      "reference": "116610LN/LV/LB",
+      "movement": "3135 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        },
+        {
+          "rank": 3,
+          "factory": "ZF"
+        }
+      ],
+      "tier": "NWBIG",
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Submariner",
+      "reference": "116610 (Asian)",
+      "movement": "2836 Asian",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "GMF"
+        },
+        {
+          "rank": 2,
+          "factory": "BP"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Submariner",
+      "reference": "16610 LN/LV",
+      "movement": "3135 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "ARF"
+        },
+        {
+          "rank": 2,
+          "factory": "TMF"
+        }
+      ],
+      "tier": "NWBIG",
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Submariner",
+      "reference": "16610 (Asian)",
+      "movement": "2824 Asian",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "TC v6"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Submariner",
+      "reference": "DiW Models",
+      "movement": "Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "DiW Factory"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Daytona",
+      "reference": "All 116XXX steel",
+      "movement": "4130 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        },
+        {
+          "rank": 2,
+          "factory": "BTF"
+        },
+        {
+          "rank": 3,
+          "factory": "QF"
+        }
+      ],
+      "tier": "NWBIG",
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Daytona",
+      "reference": "116520",
+      "movement": "4130 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "3CF"
+        },
+        {
+          "rank": 2,
+          "factory": "VSF"
+        },
+        {
+          "rank": 3,
+          "factory": "BTF"
+        }
+      ],
+      "tier": "NWBIG",
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Daytona",
+      "reference": "All 116XXX gold",
+      "movement": "4130 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        },
+        {
+          "rank": 2,
+          "factory": "BTF"
+        },
+        {
+          "rank": 3,
+          "factory": "QF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Daytona",
+      "reference": "126500 steel",
+      "movement": "4131 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        },
+        {
+          "rank": 2,
+          "factory": "BTF"
+        },
+        {
+          "rank": 3,
+          "factory": "QF"
+        }
+      ],
+      "tier": "NWBIG",
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Daytona",
+      "reference": "126XXX gold (non-weighted)",
+      "movement": "4131 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF Weighted"
+        },
+        {
+          "rank": 2,
+          "factory": "APSF"
+        },
+        {
+          "rank": 3,
+          "factory": "QF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Daytona",
+      "reference": "126XXX gold (weighted)",
+      "movement": "4131 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "APSF"
+        },
+        {
+          "rank": 2,
+          "factory": "ARF"
+        },
+        {
+          "rank": 3,
+          "factory": "VSF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Daytona",
+      "reference": "126XXX platinum",
+      "movement": "4131 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "APSF"
+        },
+        {
+          "rank": 2,
+          "factory": "QF"
+        },
+        {
+          "rank": 3,
+          "factory": "VSF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Daytona",
+      "reference": "Le Mans 126529",
+      "movement": "4132 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "APSF"
+        },
+        {
+          "rank": 2,
+          "factory": "QF"
+        },
+        {
+          "rank": 3,
+          "factory": "VSF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Daytona",
+      "reference": "Budget option",
+      "movement": "4801 Chinese",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        }
+      ],
+      "tier": null,
+      "notes": "Budget clone option"
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Daytona",
+      "reference": "DiW Daytonas",
+      "movement": "4130 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "DiW Factory/VSF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "GMT Master II",
+      "reference": "Pepsi 126710/116710 BLRO",
+      "movement": "3285/3186 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF v3"
+        },
+        {
+          "rank": 2,
+          "factory": "ARF"
+        },
+        {
+          "rank": 3,
+          "factory": "QF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "GMT Master II",
+      "reference": "Batman 126710/116710 BLNR",
+      "movement": "3285/3186 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF v3"
+        },
+        {
+          "rank": 2,
+          "factory": "ARF"
+        },
+        {
+          "rank": 3,
+          "factory": "QF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "GMT Master II",
+      "reference": "116710LN (black)",
+      "movement": "3186 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "ARF"
+        },
+        {
+          "rank": 2,
+          "factory": "C+"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "GMT Master II",
+      "reference": "Sprite VTNR",
+      "movement": "3285 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        },
+        {
+          "rank": 2,
+          "factory": "ARF"
+        },
+        {
+          "rank": 3,
+          "factory": "QF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "GMT Master II",
+      "reference": "Rootbeer",
+      "movement": "3285 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "ARF"
+        },
+        {
+          "rank": 2,
+          "factory": "QF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "GMT Master II",
+      "reference": "126713GRNR Bruce Wayne",
+      "movement": "3285 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "ARF"
+        },
+        {
+          "rank": 2,
+          "factory": "QF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "GMT Master II",
+      "reference": "DiW Models",
+      "movement": "3186 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "DiW Factory"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "GMT Master II",
+      "reference": "16710/16750 (vintage)",
+      "movement": "3186 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "BPF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "GMT Master",
+      "reference": "6542 Pepsi",
+      "movement": "2836 Asian",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "RBF"
+        }
+      ],
+      "tier": null,
+      "notes": "Might no longer be produced"
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Explorer I",
+      "reference": "124270/124723 (36mm)",
+      "movement": "3230 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "Clean*"
+        },
+        {
+          "rank": 2,
+          "factory": "VSF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Explorer I",
+      "reference": "124270 (Asian)",
+      "movement": "2836 Asian",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "GMF"
+        },
+        {
+          "rank": 2,
+          "factory": "BPF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Explorer I",
+      "reference": "214270 (39mm)",
+      "movement": "3132 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Explorer I",
+      "reference": "224270 (40mm)",
+      "movement": "3230 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        }
+      ],
+      "tier": "NWBIG",
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Explorer II",
+      "reference": "226570",
+      "movement": "3285 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "ARF"
+        },
+        {
+          "rank": 2,
+          "factory": "QF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Explorer II",
+      "reference": "216570 (wrong date position)",
+      "movement": "3187 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "C+"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Air-King",
+      "reference": "116900",
+      "movement": "3230 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "GMF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Air-King",
+      "reference": "116900 (Asian)",
+      "movement": "2836 Asian",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "GMF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Air-King",
+      "reference": "126900",
+      "movement": "3230 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "Clean*"
+        },
+        {
+          "rank": 2,
+          "factory": "GMF"
+        },
+        {
+          "rank": 3,
+          "factory": "JVSF"
+        }
+      ],
+      "tier": "NWBIG",
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Milgauss",
+      "reference": "116400 Blue",
+      "movement": "3131 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        },
+        {
+          "rank": 2,
+          "factory": "GSF"
+        },
+        {
+          "rank": 3,
+          "factory": "GMF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Milgauss",
+      "reference": "116400 Black",
+      "movement": "2836 Asian",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        },
+        {
+          "rank": 2,
+          "factory": "GSF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Milgauss",
+      "reference": "Label Noir Tourbillon",
+      "movement": "Tourbillon",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "JBF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Yacht-Master",
+      "reference": "226659 42mm WG/YG",
+      "movement": "3235 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "TEDF (weighted)"
+        },
+        {
+          "rank": 2,
+          "factory": "VSF"
+        },
+        {
+          "rank": 3,
+          "factory": "Clean*"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Yacht-Master",
+      "reference": "226659 Falcon Eye",
+      "movement": "3235 Clone VR",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "Clean*"
+        },
+        {
+          "rank": 2,
+          "factory": "IPF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Yacht-Master",
+      "reference": "116622 40mm",
+      "movement": "3135 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        },
+        {
+          "rank": 2,
+          "factory": "Clean*"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Yacht-Master",
+      "reference": "126622 40mm",
+      "movement": "3235 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        },
+        {
+          "rank": 2,
+          "factory": "Clean*"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Yacht-Master",
+      "reference": "116655 40mm",
+      "movement": "3135 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        },
+        {
+          "rank": 2,
+          "factory": "Clean*"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Yacht-Master",
+      "reference": "126655 40mm",
+      "movement": "3235 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        },
+        {
+          "rank": 2,
+          "factory": "Clean*"
+        },
+        {
+          "rank": 3,
+          "factory": "EWF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Yacht-Master",
+      "reference": "268622 37mm",
+      "movement": "3135 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "ARF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Yacht-Master",
+      "reference": "226627 Titanium 42mm",
+      "movement": "3235 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VF"
+        },
+        {
+          "rank": 2,
+          "factory": "Clean Plus"
+        },
+        {
+          "rank": 3,
+          "factory": "QF"
+        }
+      ],
+      "tier": "NWBIG",
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Datejust 28",
+      "reference": "All Models",
+      "movement": "Asian 2671",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "A+ Factory"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Datejust 31",
+      "reference": "All Models",
+      "movement": "Asian 2671",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "A+ Factory"
+        },
+        {
+          "rank": 2,
+          "factory": "ARF"
+        },
+        {
+          "rank": 3,
+          "factory": "GSF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Datejust 36",
+      "reference": "Best case shape/dial",
+      "movement": "3235 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "Clean*"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Datejust 36",
+      "reference": "Best movement & crystal",
+      "movement": "3235 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Datejust 36",
+      "reference": "All models",
+      "movement": "3135 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "ARF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Datejust 36",
+      "reference": "More colors/finishes",
+      "movement": "2824/2836 Asian",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "GMF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Datejust 41",
+      "reference": "Best movement & crystal",
+      "movement": "3235 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        },
+        {
+          "rank": 2,
+          "factory": "VF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Datejust 41",
+      "reference": "Less pricey",
+      "movement": "2824/2836 Asian",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "ZF"
+        },
+        {
+          "rank": 2,
+          "factory": "GMF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Datejust 41",
+      "reference": "40mm (Asian)",
+      "movement": "2836 Asian",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "GMF"
+        },
+        {
+          "rank": 2,
+          "factory": "BPF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Day-Date",
+      "reference": "40mm (Asian)",
+      "movement": "2836 Asian",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "GMF"
+        },
+        {
+          "rank": 2,
+          "factory": "BPF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Day-Date",
+      "reference": "40mm Premium (Tungsten)",
+      "movement": "3255 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "RCF"
+        },
+        {
+          "rank": 2,
+          "factory": "THBF"
+        },
+        {
+          "rank": 3,
+          "factory": "VSF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Day-Date",
+      "reference": "40mm Mid Tier (Tungsten)",
+      "movement": "3255 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "GMF"
+        },
+        {
+          "rank": 2,
+          "factory": "QF"
+        },
+        {
+          "rank": 3,
+          "factory": "ARF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Day-Date",
+      "reference": "36mm",
+      "movement": "3255 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "QF Tungsten"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Day-Date",
+      "reference": "36mm (Asian)",
+      "movement": "2836 Asian",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "KF Tungsten"
+        },
+        {
+          "rank": 2,
+          "factory": "8+"
+        },
+        {
+          "rank": 3,
+          "factory": "BPF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Sky-Dweller",
+      "reference": "Gold weighted (tungsten)",
+      "movement": "Custom",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "ZF v2 Tungsten"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Sky-Dweller",
+      "reference": "All Models",
+      "movement": "Custom",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "ZF"
+        },
+        {
+          "rank": 2,
+          "factory": "Noob v2"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Datejust 28",
+      "reference": "All Models (Asian)",
+      "movement": "2836 Asian",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "GMF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Oyster Perpetual",
+      "reference": "36mm (most dials)",
+      "movement": "3230 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": "VSF has two crown positions"
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Oyster Perpetual",
+      "reference": "36mm (other dials)",
+      "movement": "3230 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        },
+        {
+          "rank": 2,
+          "factory": "EWF"
+        },
+        {
+          "rank": 3,
+          "factory": "EWF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Oyster Perpetual",
+      "reference": "41mm",
+      "movement": "3230 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        },
+        {
+          "rank": 2,
+          "factory": "GMF"
+        },
+        {
+          "rank": 3,
+          "factory": "GMF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Sea-Dweller",
+      "reference": "126600",
+      "movement": "3235 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Sea-Dweller",
+      "reference": "126603 (gold)",
+      "movement": "3235 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Sea-Dweller",
+      "reference": "16600 Vintage",
+      "movement": "Asian 2824",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "BPF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Cellini",
+      "reference": "Rose Gold Moonphase",
+      "movement": "2824 Asian Moon",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "EWF"
+        },
+        {
+          "rank": 2,
+          "factory": "KZF"
+        },
+        {
+          "rank": 3,
+          "factory": "GMF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Cellini",
+      "reference": "Time only",
+      "movement": "2824 Asian",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "KZF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Rolex",
+      "model_family": "Cellini",
+      "reference": "Dual Time",
+      "movement": "Low Beat",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "KZF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Patek Philippe",
+      "model_family": "Nautilus",
+      "reference": "5711 (324 Clone)",
+      "movement": "324 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "DDF"
+        },
+        {
+          "rank": 2,
+          "factory": "BBF"
+        },
+        {
+          "rank": 3,
+          "factory": "VF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Patek Philippe",
+      "model_family": "Nautilus",
+      "reference": "5711 (330 Clone)",
+      "movement": "330 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "DDF"
+        },
+        {
+          "rank": 2,
+          "factory": "3KF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Patek Philippe",
+      "model_family": "Nautilus",
+      "reference": "5711 DiW",
+      "movement": "9015 Miyota",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "DiWF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Patek Philippe",
+      "model_family": "Nautilus",
+      "reference": "5711 Iced Out",
+      "movement": "9015 Miyota",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "R8F"
+        },
+        {
+          "rank": 2,
+          "factory": "DM v2"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Patek Philippe",
+      "model_family": "Nautilus",
+      "reference": "5811 Blue",
+      "movement": "324 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "DDF Heavy"
+        },
+        {
+          "rank": 2,
+          "factory": "3KF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Patek Philippe",
+      "model_family": "Nautilus",
+      "reference": "5812",
+      "movement": "Miyota",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "TWF"
+        }
+      ],
+      "tier": null,
+      "notes": "No good clone yet"
+    },
+    {
+      "brand": "Patek Philippe",
+      "model_family": "Nautilus",
+      "reference": "5712 Moonphase",
+      "movement": "240 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "OME"
+        },
+        {
+          "rank": 2,
+          "factory": "PPF v2/ZF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Patek Philippe",
+      "model_family": "Nautilus",
+      "reference": "5726 Annual Calendar",
+      "movement": "9015 Miyota",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "PPF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Patek Philippe",
+      "model_family": "Nautilus",
+      "reference": "5980 Chrono",
+      "movement": "7750 Asian",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "PPF"
+        },
+        {
+          "rank": 2,
+          "factory": "TWF"
+        },
+        {
+          "rank": 3,
+          "factory": "BPF"
+        }
+      ],
+      "tier": null,
+      "notes": "No good rep though"
+    },
+    {
+      "brand": "Patek Philippe",
+      "model_family": "Nautilus",
+      "reference": "7010 Ladies 33mm",
+      "movement": "324 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "3KF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Patek Philippe",
+      "model_family": "Nautilus",
+      "reference": "7118 Ladies 35mm",
+      "movement": "324 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "3KF"
+        },
+        {
+          "rank": 2,
+          "factory": "PPF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Patek Philippe",
+      "model_family": "Cubitus",
+      "reference": "5822 (330 Clone)",
+      "movement": "330 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "BBF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Patek Philippe",
+      "model_family": "Cubitus",
+      "reference": "5822 (Miyota)",
+      "movement": "Miyota",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "PPF"
+        },
+        {
+          "rank": 2,
+          "factory": "TWF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Patek Philippe",
+      "model_family": "Aquanaut",
+      "reference": "5167 40mm",
+      "movement": "324 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "DDF"
+        },
+        {
+          "rank": 2,
+          "factory": "BBF"
+        },
+        {
+          "rank": 3,
+          "factory": "3KF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Patek Philippe",
+      "model_family": "Aquanaut",
+      "reference": "5167 (Miyota)",
+      "movement": "9015 Miyota",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "ZF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Patek Philippe",
+      "model_family": "Aquanaut",
+      "reference": "5168 42mm",
+      "movement": "324 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "DDF"
+        },
+        {
+          "rank": 2,
+          "factory": "BBF"
+        },
+        {
+          "rank": 3,
+          "factory": "3KF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Patek Philippe",
+      "model_family": "Aquanaut",
+      "reference": "5168 (Miyota)",
+      "movement": "9015 Miyota",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "ZF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Patek Philippe",
+      "model_family": "Aquanaut",
+      "reference": "5165 37mm",
+      "movement": "9015 Miyota",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "ZF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Patek Philippe",
+      "model_family": "Aquanaut",
+      "reference": "5164 Travel Time",
+      "movement": "9015 Miyota",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "GRF v2"
+        }
+      ],
+      "tier": null,
+      "notes": "Not a good rep"
+    },
+    {
+      "brand": "Patek Philippe",
+      "model_family": "Aquanaut",
+      "reference": "5067 35mm",
+      "movement": "Quartz",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "PPF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Patek Philippe",
+      "model_family": "Aquanaut",
+      "reference": "5968 Chronograph",
+      "movement": "7750 Asian",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "OMF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Patek Philippe",
+      "model_family": "Calatrava",
+      "reference": "5227",
+      "movement": "324 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "3KF"
+        }
+      ],
+      "tier": null,
+      "notes": "Best Calatrava model"
+    },
+    {
+      "brand": "Patek Philippe",
+      "model_family": "Calatrava",
+      "reference": "5227 (Miyota)",
+      "movement": "9015 Miyota",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "ZF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Patek Philippe",
+      "model_family": "Calatrava",
+      "reference": "5327",
+      "movement": "Custom",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "3KF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Patek Philippe",
+      "model_family": "Calatrava",
+      "reference": "5296",
+      "movement": "9015 Miyota",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "ZF"
+        }
+      ],
+      "tier": null,
+      "notes": "Also best Calatrava model"
+    },
+    {
+      "brand": "Patek Philippe",
+      "model_family": "Calatrava",
+      "reference": "5077 Notre Dame",
+      "movement": "Custom",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "FLF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Patek Philippe",
+      "model_family": "Calatrava",
+      "reference": "5088",
+      "movement": "Custom",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "FLF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Patek Philippe",
+      "model_family": "Calatrava",
+      "reference": "5089 Azulejos",
+      "movement": "Custom",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "FLF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Patek Philippe",
+      "model_family": "Calatrava",
+      "reference": "5119",
+      "movement": "Custom",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "TWF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Patek Philippe",
+      "model_family": "Calatrava",
+      "reference": "5120",
+      "movement": "Custom",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "TWF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Patek Philippe",
+      "model_family": "Calatrava",
+      "reference": "5123",
+      "movement": "Custom",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "TWF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Patek Philippe",
+      "model_family": "Calatrava",
+      "reference": "5224R GMT",
+      "movement": "Custom",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "GRF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Patek Philippe",
+      "model_family": "Calatrava",
+      "reference": "5196 sub seconds",
+      "movement": "Custom",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "AIF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Patek Philippe",
+      "model_family": "Calatrava",
+      "reference": "5153",
+      "movement": "9015 Miyota",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "ZF"
+        }
+      ],
+      "tier": null,
+      "notes": "Good execution"
+    },
+    {
+      "brand": "Patek Philippe",
+      "model_family": "Calatrava",
+      "reference": "6007 (324)",
+      "movement": "324 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "3KF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Patek Philippe",
+      "model_family": "Calatrava",
+      "reference": "6007 (Miyota)",
+      "movement": "9015 Miyota",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "ZF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Patek Philippe",
+      "model_family": "Grand Complications",
+      "reference": "4968 Ladies Moonphase",
+      "movement": "Custom",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "KGF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Patek Philippe",
+      "model_family": "Grand Complications",
+      "reference": "5057 Cortina",
+      "movement": "9015 Miyota",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "YSF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Patek Philippe",
+      "model_family": "Grand Complications",
+      "reference": "5170 Chronograph",
+      "movement": "7750",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "TWF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Patek Philippe",
+      "model_family": "Grand Complications",
+      "reference": "5205 Triple Calendar",
+      "movement": "9015 Miyota",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "GRF v2"
+        },
+        {
+          "rank": 2,
+          "factory": "KMF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Patek Philippe",
+      "model_family": "Grand Complications",
+      "reference": "5320 Perpetual Calendar",
+      "movement": "9015 Miyota",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "KRF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Patek Philippe",
+      "model_family": "Grand Complications",
+      "reference": "5396",
+      "movement": "9015 Miyota",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "ZF"
+        },
+        {
+          "rank": 2,
+          "factory": "GRF v2"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Patek Philippe",
+      "model_family": "Grand Complications",
+      "reference": "5524 Travel Time",
+      "movement": "Custom",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "GRF v2"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Patek Philippe",
+      "model_family": "Grand Complications",
+      "reference": "6102 Celestial",
+      "movement": "Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "3KF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Patek Philippe",
+      "model_family": "Complications",
+      "reference": "5146 Annual Calendar",
+      "movement": "9015 Custom",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "GRF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Audemars Piguet",
+      "model_family": "Royal Oak",
+      "reference": "15500 Free Sprung",
+      "movement": "4302 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "APSF v3"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": "Premium Free Sprung movement"
+    },
+    {
+      "brand": "Audemars Piguet",
+      "model_family": "Royal Oak",
+      "reference": "15500 Standard",
+      "movement": "4302 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "APSF"
+        },
+        {
+          "rank": 2,
+          "factory": "ZF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Audemars Piguet",
+      "model_family": "Royal Oak",
+      "reference": "15510 41mm",
+      "movement": "4302 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "Top"
+        },
+        {
+          "rank": 2,
+          "factory": "APSF"
+        },
+        {
+          "rank": 3,
+          "factory": "DDF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Audemars Piguet",
+      "model_family": "Royal Oak",
+      "reference": "15400 41mm",
+      "movement": "3120 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "APSF"
+        },
+        {
+          "rank": 2,
+          "factory": "ZF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Audemars Piguet",
+      "model_family": "Royal Oak",
+      "reference": "15400 41mm RG weighted",
+      "movement": "3120 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "APSF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Audemars Piguet",
+      "model_family": "Royal Oak",
+      "reference": "15410 textured bracelet",
+      "movement": "3120 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "APSF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Audemars Piguet",
+      "model_family": "Royal Oak",
+      "reference": "15550 37mm",
+      "movement": "9015 Miyota",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "TWF"
+        },
+        {
+          "rank": 2,
+          "factory": "IPF"
+        }
+      ],
+      "tier": null,
+      "notes": "No good clones yet"
+    },
+    {
+      "brand": "Audemars Piguet",
+      "model_family": "Royal Oak",
+      "reference": "15407 Openwork",
+      "movement": "3132 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "THB v2"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Audemars Piguet",
+      "model_family": "Royal Oak",
+      "reference": "15450 37mm",
+      "movement": "3120 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "ZF"
+        },
+        {
+          "rank": 2,
+          "factory": "APSF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Audemars Piguet",
+      "model_family": "Royal Oak",
+      "reference": "15202 39mm",
+      "movement": "9015 Miyota",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "ZF"
+        },
+        {
+          "rank": 2,
+          "factory": "XF (gone)"
+        },
+        {
+          "rank": 3,
+          "factory": "BF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Audemars Piguet",
+      "model_family": "Royal Oak",
+      "reference": "16202 39mm",
+      "movement": "9015 Miyota",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "ZF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Audemars Piguet",
+      "model_family": "Royal Oak",
+      "reference": "26240 41mm Chrono",
+      "movement": "4401 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "APSF"
+        },
+        {
+          "rank": 2,
+          "factory": "DDF"
+        },
+        {
+          "rank": 3,
+          "factory": "Top"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Audemars Piguet",
+      "model_family": "Royal Oak",
+      "reference": "67651 33mm",
+      "movement": "Quartz",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "V7"
+        },
+        {
+          "rank": 2,
+          "factory": "ZF"
+        },
+        {
+          "rank": 3,
+          "factory": "JJF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Audemars Piguet",
+      "model_family": "Royal Oak Offshore",
+      "reference": "15703/15710 42mm",
+      "movement": "3120 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "ZF"
+        },
+        {
+          "rank": 2,
+          "factory": "APSF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Audemars Piguet",
+      "model_family": "Royal Oak Offshore",
+      "reference": "15703/15710 (Miyota)",
+      "movement": "9015 Miyota",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "ZF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Audemars Piguet",
+      "model_family": "Royal Oak Offshore",
+      "reference": "15707 42mm Ceramic",
+      "movement": "3120 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "APSF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Audemars Piguet",
+      "model_family": "Royal Oak Offshore",
+      "reference": "15720 42mm",
+      "movement": "4302 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "ZF"
+        },
+        {
+          "rank": 2,
+          "factory": "APSF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Audemars Piguet",
+      "model_family": "Royal Oak Offshore",
+      "reference": "24620 42mm",
+      "movement": "4401 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "APSF"
+        },
+        {
+          "rank": 2,
+          "factory": "DDF"
+        },
+        {
+          "rank": 3,
+          "factory": "Top"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Audemars Piguet",
+      "model_family": "Royal Oak Offshore",
+      "reference": "15605SK ROO 43mm",
+      "movement": "Miyota",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "APP"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Audemars Piguet",
+      "model_family": "Royal Oak Offshore",
+      "reference": "67540 37mm",
+      "movement": "9015 Miyota",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "Unknown Factory"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Audemars Piguet",
+      "model_family": "Royal Oak Offshore",
+      "reference": "26238",
+      "movement": "7750 Asian",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "TKF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Audemars Piguet",
+      "model_family": "Royal Oak Offshore",
+      "reference": "26170",
+      "movement": "7750 Asian",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "TKF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Audemars Piguet",
+      "model_family": "Royal Oak Offshore",
+      "reference": "26400 44mm Chrono",
+      "movement": "7750 Asian",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "TKF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Audemars Piguet",
+      "model_family": "Grand Complications",
+      "reference": "Royal Oak Tourbillon",
+      "movement": "Tourbillon",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "R8F"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Audemars Piguet",
+      "model_family": "Grand Complications",
+      "reference": "Open Work Tourbillon",
+      "movement": "Tourbillon",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "R8F"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Audemars Piguet",
+      "model_family": "Grand Complications",
+      "reference": "26331 Chronograph",
+      "movement": "4801 Chinese",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "APSF"
+        }
+      ],
+      "tier": null,
+      "notes": "Very good but not super rep"
+    },
+    {
+      "brand": "Audemars Piguet",
+      "model_family": "Grand Complications",
+      "reference": "26574 Perpetual Calendar",
+      "movement": "9015 Miyota",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "APF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Audemars Piguet",
+      "model_family": "Grand Complications",
+      "reference": "26579 Perpetual Calendar",
+      "movement": "9015 Miyota",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "APSF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Audemars Piguet",
+      "model_family": "CODE 11.59",
+      "reference": "15210 Date only",
+      "movement": "4302 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "APSF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "model_family": "Overseas",
+      "reference": "4500V all dials",
+      "movement": "9015 Miyota",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "ZF/PPF"
+        },
+        {
+          "rank": 2,
+          "factory": "MKS"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "model_family": "Overseas",
+      "reference": "4500V/4520V (Custom)",
+      "movement": "Custom",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "ZF v2"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "model_family": "Overseas",
+      "reference": "2000V Ultra-Thin",
+      "movement": "9015 Miyota",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "XF/VSF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "model_family": "Overseas",
+      "reference": "4000V Moonphase",
+      "movement": "9015 Miyota",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "GRF"
+        },
+        {
+          "rank": 2,
+          "factory": "TW"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "model_family": "Overseas",
+      "reference": "47040 all dials",
+      "movement": "9015 Miyota",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "PPF"
+        },
+        {
+          "rank": 2,
+          "factory": "MKS"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "model_family": "Overseas",
+      "reference": "7900V GMT",
+      "movement": "9015 Miyota",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "MKF"
+        },
+        {
+          "rank": 2,
+          "factory": "GRF"
+        },
+        {
+          "rank": 3,
+          "factory": "PZF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "model_family": "Fifty-Six",
+      "reference": "4600 Date Only",
+      "movement": "9015 Miyota",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "ZF"
+        },
+        {
+          "rank": 2,
+          "factory": "MKS"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "model_family": "Fifty-Six",
+      "reference": "Complete Calendar",
+      "movement": "9015 Miyota",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "ZF"
+        },
+        {
+          "rank": 2,
+          "factory": "MXF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "model_family": "Patrimony",
+      "reference": "85150 Traditionelle",
+      "movement": "9015 Miyota",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "PPF"
+        },
+        {
+          "rank": 2,
+          "factory": "MKS"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "model_family": "Patrimony",
+      "reference": "85180 Traditionelle",
+      "movement": "9015 Miyota",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VC+ Counterweight"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "model_family": "Patrimony",
+      "reference": "4000V Traditionelle",
+      "movement": "9015 Miyota",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "GRF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "model_family": "Patrimony",
+      "reference": "4010 Perpetual Calendar",
+      "movement": "9015 Miyota",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "MXF"
+        },
+        {
+          "rank": 2,
+          "factory": "GRF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "model_family": "Other",
+      "reference": "Chronometre Royal 1907",
+      "movement": "Custom",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "MKS"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "model_family": "Other",
+      "reference": "Quai de l'ile 4500S",
+      "movement": "Modified Miyota",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "GRF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "model_family": "Other",
+      "reference": "Historique 222",
+      "movement": "Miyota",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "PPF"
+        },
+        {
+          "rank": 2,
+          "factory": "MXF v2"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Vacheron Constantin",
+      "model_family": "Other",
+      "reference": "Historique 86300",
+      "movement": "Custom",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "GSF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Richard Mille",
+      "model_family": "Richard Mille",
+      "reference": "RM011",
+      "movement": "Custom",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "KVF"
+        }
+      ],
+      "tier": null,
+      "notes": "Thick but best decorated"
+    },
+    {
+      "brand": "Richard Mille",
+      "model_family": "Richard Mille",
+      "reference": "RM035",
+      "movement": "Custom",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "BBR factory"
+        },
+        {
+          "rank": 2,
+          "factory": "Sonic"
+        },
+        {
+          "rank": 3,
+          "factory": "ZF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Richard Mille",
+      "model_family": "Richard Mille",
+      "reference": "RM055 Ceramic",
+      "movement": "RMLU2",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "ZF"
+        },
+        {
+          "rank": 2,
+          "factory": "APSF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Richard Mille",
+      "model_family": "Richard Mille",
+      "reference": "RM055 NTPT",
+      "movement": "RMLU2",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "APSF"
+        },
+        {
+          "rank": 2,
+          "factory": "ZF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Richard Mille",
+      "model_family": "Richard Mille",
+      "reference": "RM67-02",
+      "movement": "Custom",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "Custom"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Richard Mille",
+      "model_family": "Richard Mille",
+      "reference": "RM027-01",
+      "movement": "Custom",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "YSF"
+        },
+        {
+          "rank": 2,
+          "factory": "EURF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Richard Mille",
+      "model_family": "Richard Mille",
+      "reference": "RM027-02",
+      "movement": "Custom",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "RMF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Richard Mille",
+      "model_family": "Richard Mille",
+      "reference": "RM027-03",
+      "movement": "Custom",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "RMF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Richard Mille",
+      "model_family": "Richard Mille",
+      "reference": "RM056",
+      "movement": "Custom",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "EURF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Richard Mille",
+      "model_family": "Richard Mille",
+      "reference": "RM052 Skull",
+      "movement": "Custom",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "3KF"
+        },
+        {
+          "rank": 2,
+          "factory": "JBF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Richard Mille",
+      "model_family": "Richard Mille",
+      "reference": "RM53-02",
+      "movement": "Custom",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "unknown"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Richard Mille",
+      "model_family": "Richard Mille",
+      "reference": "RM061-01",
+      "movement": "Custom",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "APS"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Richard Mille",
+      "model_family": "Richard Mille",
+      "reference": "RM065-01 McLaren W1",
+      "movement": "Custom",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "unknown"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Richard Mille",
+      "model_family": "Richard Mille",
+      "reference": "RM68",
+      "movement": "Custom",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "RRF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Richard Mille",
+      "model_family": "Richard Mille",
+      "reference": "RM88 tourby smiley",
+      "movement": "Custom",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "unknown"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Richard Mille",
+      "model_family": "Richard Mille",
+      "reference": "RM010",
+      "movement": "Custom",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "RRF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Richard Mille",
+      "model_family": "Richard Mille",
+      "reference": "RM07",
+      "movement": "Custom",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "RMF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Richard Mille",
+      "model_family": "Richard Mille",
+      "reference": "RM012",
+      "movement": "Custom",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "KVF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Omega",
+      "model_family": "Seamaster",
+      "reference": "All models (Clone)",
+      "movement": "Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Omega",
+      "model_family": "Seamaster",
+      "reference": "All models (Asian)",
+      "movement": "2824 Asian",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "ORF"
+        },
+        {
+          "rank": 2,
+          "factory": "OMF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Omega",
+      "model_family": "Seamaster",
+      "reference": "300 Diver (Clone)",
+      "movement": "Clone 8800",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Omega",
+      "model_family": "Seamaster",
+      "reference": "300 Diver (Asian)",
+      "movement": "Asian 2824",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Omega",
+      "model_family": "Seamaster",
+      "reference": "Aqua Terra 150 (Clone)",
+      "movement": "Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Omega",
+      "model_family": "Seamaster",
+      "reference": "Aqua Terra 150 (Asian)",
+      "movement": "2824 Asian",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "OMF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Omega",
+      "model_family": "Seamaster",
+      "reference": "Aqua Terra 150m Ladies 34mm",
+      "movement": "Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Omega",
+      "model_family": "Seamaster",
+      "reference": "Aqua Terra GMT",
+      "movement": "Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Omega",
+      "model_family": "Seamaster",
+      "reference": "No Time to Die 007",
+      "movement": "2824 Asian",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        },
+        {
+          "rank": 2,
+          "factory": "OMF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Omega",
+      "model_family": "Seamaster",
+      "reference": "Seamaster 300 (Clone)",
+      "movement": "Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Omega",
+      "model_family": "Seamaster",
+      "reference": "Seamaster 300 (Asian)",
+      "movement": "2824 Asian",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        },
+        {
+          "rank": 2,
+          "factory": "ZF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Omega",
+      "model_family": "Seamaster",
+      "reference": "Ultra Deep 6000M",
+      "movement": "Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Omega",
+      "model_family": "Planet Ocean",
+      "reference": "39mm/42mm/45mm",
+      "movement": "Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Omega",
+      "model_family": "Speedmaster",
+      "reference": "Racing",
+      "movement": "7750 Asian",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "HRF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Omega",
+      "model_family": "Speedmaster",
+      "reference": "Speedmaster 57",
+      "movement": "7750 Asian",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "OMF"
+        }
+      ],
+      "tier": null,
+      "notes": "Not great"
+    },
+    {
+      "brand": "Omega",
+      "model_family": "Speedmaster",
+      "reference": "Dark Side of the Moon",
+      "movement": "Asian Lemania",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "TWF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Omega",
+      "model_family": "Speedmaster",
+      "reference": "Snoopy",
+      "movement": "Asian Lemania",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "OMF"
+        },
+        {
+          "rank": 2,
+          "factory": "RMF"
+        },
+        {
+          "rank": 3,
+          "factory": "OSF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Omega",
+      "model_family": "De Ville",
+      "reference": "33mm",
+      "movement": "Custom",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "UVS F"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Omega",
+      "model_family": "De Ville",
+      "reference": "33mm Dew Drop",
+      "movement": "Custom",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "3S F"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Omega",
+      "model_family": "De Ville",
+      "reference": "36mm",
+      "movement": "Custom",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "HRF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Omega",
+      "model_family": "De Ville",
+      "reference": "Prestige 39mm",
+      "movement": "2824 Asian",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "ZF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Omega",
+      "model_family": "Constellation",
+      "reference": "41mm",
+      "movement": "Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Omega",
+      "model_family": "Constellation",
+      "reference": "39mm",
+      "movement": "Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Omega",
+      "model_family": "Constellation",
+      "reference": "34mm",
+      "movement": "Asian",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Omega",
+      "model_family": "Constellation",
+      "reference": "28mm",
+      "movement": "Quartz",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "AF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Cartier",
+      "model_family": "Tank",
+      "reference": "Louis Date",
+      "movement": "Quartz",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "DRF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Cartier",
+      "model_family": "Tank",
+      "reference": "Louis Medium No date",
+      "movement": "Quartz",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "5SF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Cartier",
+      "model_family": "Tank",
+      "reference": "Louis Mini",
+      "movement": "Quartz",
+      "recommendations": [],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Cartier",
+      "model_family": "Tank",
+      "reference": "Solo Small",
+      "movement": "Quartz",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "AF"
+        },
+        {
+          "rank": 2,
+          "factory": "K11F"
+        }
+      ],
+      "tier": "NWBIG",
+      "notes": null
+    },
+    {
+      "brand": "Cartier",
+      "model_family": "Tank",
+      "reference": "Solo Large",
+      "movement": "9015 Miyota",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "AF"
+        },
+        {
+          "rank": 2,
+          "factory": "F1F"
+        },
+        {
+          "rank": 3,
+          "factory": "TWF"
+        }
+      ],
+      "tier": "NWBIG",
+      "notes": null
+    },
+    {
+      "brand": "Cartier",
+      "model_family": "Tank",
+      "reference": "Must",
+      "movement": "Custom",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "AF"
+        },
+        {
+          "rank": 2,
+          "factory": "F1F"
+        },
+        {
+          "rank": 3,
+          "factory": "K11F"
+        }
+      ],
+      "tier": "NWBIG",
+      "notes": null
+    },
+    {
+      "brand": "Cartier",
+      "model_family": "Tank",
+      "reference": "Francaise",
+      "movement": "Custom",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "8848F"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Cartier",
+      "model_family": "Santos",
+      "reference": "35mm steel",
+      "movement": "Custom",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "V6F"
+        },
+        {
+          "rank": 2,
+          "factory": "BVF/J12"
+        },
+        {
+          "rank": 3,
+          "factory": "3KF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Cartier",
+      "model_family": "Santos",
+      "reference": "35mm Two-tone/gold",
+      "movement": "Custom",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "BVF/J12"
+        },
+        {
+          "rank": 2,
+          "factory": "3KF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Cartier",
+      "model_family": "Santos",
+      "reference": "40mm Steel",
+      "movement": "Custom",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "BVF/J12"
+        },
+        {
+          "rank": 2,
+          "factory": "3KF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Cartier",
+      "model_family": "Santos",
+      "reference": "40mm Two-tone/gold",
+      "movement": "Custom",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "BVF/J12"
+        },
+        {
+          "rank": 2,
+          "factory": "3KF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Cartier",
+      "model_family": "Ballon Bleu",
+      "reference": "33mm & 36mm",
+      "movement": "Quartz",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "AF"
+        },
+        {
+          "rank": 2,
+          "factory": "3KF"
+        },
+        {
+          "rank": 3,
+          "factory": "V6F"
+        }
+      ],
+      "tier": "NWBIG",
+      "notes": null
+    },
+    {
+      "brand": "Cartier",
+      "model_family": "Ballon Bleu",
+      "reference": "36mm",
+      "movement": "9015 Miyota",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "AF"
+        },
+        {
+          "rank": 2,
+          "factory": "V6F"
+        }
+      ],
+      "tier": "NWBIG",
+      "notes": null
+    },
+    {
+      "brand": "Cartier",
+      "model_family": "Ballon Bleu",
+      "reference": "41mm",
+      "movement": "9015 Miyota/2824",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "AF"
+        },
+        {
+          "rank": 2,
+          "factory": "3KF"
+        },
+        {
+          "rank": 3,
+          "factory": "V6F"
+        }
+      ],
+      "tier": "NWBIG",
+      "notes": null
+    },
+    {
+      "brand": "Cartier",
+      "model_family": "Panthere",
+      "reference": "Secrete De",
+      "movement": "Quartz",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "GF"
+        },
+        {
+          "rank": 2,
+          "factory": "BVF/J12"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Cartier",
+      "model_family": "Panthere",
+      "reference": "22mm",
+      "movement": "Custom",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "BBa Factory"
+        },
+        {
+          "rank": 2,
+          "factory": "BVF/J12"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Cartier",
+      "model_family": "Pasha",
+      "reference": "30mm",
+      "movement": "Quartz",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "AF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Cartier",
+      "model_family": "Pasha",
+      "reference": "35mm",
+      "movement": "9019 Miyota",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "3KF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Cartier",
+      "model_family": "Baignoire",
+      "reference": "All sizes",
+      "movement": "Quartz",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "BBA"
+        }
+      ],
+      "tier": null,
+      "notes": "Real gold available"
+    },
+    {
+      "brand": "Cartier",
+      "model_family": "Dumont",
+      "reference": "Large 46.6x33.9",
+      "movement": "Quartz",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "F1F"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Cartier",
+      "model_family": "Dumont",
+      "reference": "Medium 43.5x31.4",
+      "movement": "Quartz",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "F1F"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Cartier",
+      "model_family": "Dumont",
+      "reference": "Small 38x27.5",
+      "movement": "Quartz",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "F1F"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Tudor",
+      "model_family": "Pelagos",
+      "reference": "Titanium Black",
+      "movement": "2824 Asian",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "XF"
+        },
+        {
+          "rank": 2,
+          "factory": "ZF"
+        }
+      ],
+      "tier": "NWBIG",
+      "notes": null
+    },
+    {
+      "brand": "Tudor",
+      "model_family": "Pelagos",
+      "reference": "Titanium Blue",
+      "movement": "2824 Asian",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "XF"
+        },
+        {
+          "rank": 2,
+          "factory": "ZF"
+        }
+      ],
+      "tier": "NWBIG",
+      "notes": null
+    },
+    {
+      "brand": "Tudor",
+      "model_family": "Pelagos",
+      "reference": "Ultra 43mm",
+      "movement": "2824 Asian",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "ZF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Tudor",
+      "model_family": "Pelagos",
+      "reference": "FXD Titanium GMT",
+      "movement": "2836 Asian GMT",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "M+"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Tudor",
+      "model_family": "Pelagos",
+      "reference": "FXD Red Bull Chrono",
+      "movement": "7750 Asian",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "M+"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Tudor",
+      "model_family": "Pelagos",
+      "reference": "FXD Time Only",
+      "movement": "2824 Asian",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "M+"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Tudor",
+      "model_family": "Pelagos",
+      "reference": "Left Hand Diver",
+      "movement": "2824 Asian",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "XF"
+        }
+      ],
+      "tier": "NWBIG",
+      "notes": null
+    },
+    {
+      "brand": "Tudor",
+      "model_family": "Black Bay",
+      "reference": "Heritage 36",
+      "movement": "2824 Asian",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "KRF v3"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": "Discontinued"
+    },
+    {
+      "brand": "Tudor",
+      "model_family": "Black Bay",
+      "reference": "Pepsi GMT",
+      "movement": "2836 Asian GMT",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "ZF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Tudor",
+      "model_family": "Black Bay",
+      "reference": "Coke GMT Gold",
+      "movement": "2836 Asian GMT",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "ZF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Tudor",
+      "model_family": "Black Bay",
+      "reference": "Two Tone GMT",
+      "movement": "2836 Asian GMT",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "ZF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Tudor",
+      "model_family": "Black Bay",
+      "reference": "Pro GMT",
+      "movement": "VR3186",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "ZF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Tudor",
+      "model_family": "Black Bay",
+      "reference": "Heritage GMT",
+      "movement": "2836 Asian GMT",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "ZF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Tudor",
+      "model_family": "Black Bay",
+      "reference": "Heritage Chronograph",
+      "movement": "7750 Asian",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "BLS"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Tudor",
+      "model_family": "Black Bay",
+      "reference": "54",
+      "movement": "2824 Asian",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "ZF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Tudor",
+      "model_family": "Black Bay",
+      "reference": "41mm Diver",
+      "movement": "2824 Asian",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "ZF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Tudor",
+      "model_family": "Black Bay",
+      "reference": "Heritage Diver 58",
+      "movement": "9015 Miyota",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "ZF"
+        },
+        {
+          "rank": 2,
+          "factory": "XF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Tudor",
+      "model_family": "Royal",
+      "reference": "Day Date",
+      "movement": "2836 Asian",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "V7F"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Jaeger-LeCoultre",
+      "model_family": "Master Ultra Thin",
+      "reference": "Moonphase (5 stars)",
+      "movement": "925 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "ZF v2"
+        },
+        {
+          "rank": 2,
+          "factory": "IMF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Jaeger-LeCoultre",
+      "model_family": "Master Ultra Thin",
+      "reference": "Moonphase (lots of stars)",
+      "movement": "925 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "APSF"
+        },
+        {
+          "rank": 2,
+          "factory": "IMF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Jaeger-LeCoultre",
+      "model_family": "Master Ultra Thin",
+      "reference": "Date",
+      "movement": "9015 Miyota",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "IMF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Jaeger-LeCoultre",
+      "model_family": "Master Ultra Thin",
+      "reference": "Small Seconds",
+      "movement": "9015 Miyota",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "ZF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Jaeger-LeCoultre",
+      "model_family": "Master Ultra Thin",
+      "reference": "Power Reserve",
+      "movement": "Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "ZF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Jaeger-LeCoultre",
+      "model_family": "Master Ultra Thin",
+      "reference": "World Time Power Reserve",
+      "movement": "Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "V9"
+        },
+        {
+          "rank": 2,
+          "factory": "ZF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Jaeger-LeCoultre",
+      "model_family": "Master Ultra Thin",
+      "reference": "Perpetual Calendar",
+      "movement": "9015 Miyota",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "TWF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Jaeger-LeCoultre",
+      "model_family": "Master Ultra Thin",
+      "reference": "Tourbillon",
+      "movement": "Tourbillon",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "RMSF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Jaeger-LeCoultre",
+      "model_family": "Reverso",
+      "reference": "Tribute Duoface",
+      "movement": "Custom",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "MGF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Jaeger-LeCoultre",
+      "model_family": "Polaris",
+      "reference": "All models",
+      "movement": "9015 Miyota",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "BLS"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Jaeger-LeCoultre",
+      "model_family": "Rendezvous",
+      "reference": "Moonphase",
+      "movement": "Custom",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "ZF"
+        },
+        {
+          "rank": 2,
+          "factory": "APSF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Jaeger-LeCoultre",
+      "model_family": "Rendezvous",
+      "reference": "Moon Serenity",
+      "movement": "Custom",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "CC F"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Jaeger-LeCoultre",
+      "model_family": "Rendezvous",
+      "reference": "Meteor",
+      "movement": "Custom",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "KZF"
+        },
+        {
+          "rank": 2,
+          "factory": "G5F"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Panerai",
+      "model_family": "Submersible",
+      "reference": "616 Carbontech",
+      "movement": "P.9000/P.9010 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Panerai",
+      "model_family": "Submersible",
+      "reference": "960 Carbontech",
+      "movement": "P.900/P.9010 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Panerai",
+      "model_family": "Submersible",
+      "reference": "974",
+      "movement": "P.900/P.9010 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Panerai",
+      "model_family": "Submersible",
+      "reference": "985 Mike Horn",
+      "movement": "P.900/P.9010 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Panerai",
+      "model_family": "Submersible",
+      "reference": "984 Mike Horn",
+      "movement": "P.900/P.9010 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Panerai",
+      "model_family": "Luminor",
+      "reference": "688 GMT",
+      "movement": "P.9001 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Panerai",
+      "model_family": "Luminor",
+      "reference": "979 Submersible Carbon",
+      "movement": "P.9010 Super Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Panerai",
+      "model_family": "Luminor",
+      "reference": "P908",
+      "movement": "P.9010 Super Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Panerai",
+      "model_family": "Luminor",
+      "reference": "968 Bronzo",
+      "movement": "P.9010 Super Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Panerai",
+      "model_family": "Luminor",
+      "reference": "1024",
+      "movement": "P.900/P.9010 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Panerai",
+      "model_family": "Luminor",
+      "reference": "1289 Submersible",
+      "movement": "P.900/P.9010 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        },
+        {
+          "rank": 2,
+          "factory": "TTF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Panerai",
+      "model_family": "Luminor",
+      "reference": "1293 Radiomir/Luminor",
+      "movement": "P.9010 Super Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        },
+        {
+          "rank": 2,
+          "factory": "TTF"
+        }
+      ],
+      "tier": null,
+      "notes": "Luminor-style case by VSF"
+    },
+    {
+      "brand": "Panerai",
+      "model_family": "Luminor",
+      "reference": "1314 Marina",
+      "movement": "P.9010 Super Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        },
+        {
+          "rank": 2,
+          "factory": "TTF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Panerai",
+      "model_family": "Luminor",
+      "reference": "1329 Marina",
+      "movement": "P.900 Super Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Panerai",
+      "model_family": "Luminor",
+      "reference": "1394 Marina",
+      "movement": "P.9010 Super Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Panerai",
+      "model_family": "Luminor",
+      "reference": "1661 Marina Carbotech",
+      "movement": "P.9010 Super Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Panerai",
+      "model_family": "Luminor",
+      "reference": "1441 GMT",
+      "movement": "P.9010 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Panerai",
+      "model_family": "Luminor Luna Rossa",
+      "reference": "1507",
+      "movement": "P.900/P.9010 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Panerai",
+      "model_family": "Luminor Luna Rossa",
+      "reference": "1381",
+      "movement": "P.900/P.9010 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Panerai",
+      "model_family": "Luminor Luna Rossa",
+      "reference": "1565",
+      "movement": "P.900/P.9010 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Panerai",
+      "model_family": "Luminor Luna Rossa",
+      "reference": "1579",
+      "movement": "P.900/P.9010 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Panerai",
+      "model_family": "Luminor Luna Rossa",
+      "reference": "1391",
+      "movement": "P.900/P.9010 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Panerai",
+      "model_family": "Luminor Luna Rossa",
+      "reference": "1529",
+      "movement": "P.900/P.9010 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Panerai",
+      "model_family": "Radiomir",
+      "reference": "961 Carbotech",
+      "movement": "P.9010 Super Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Panerai",
+      "model_family": "Radiomir",
+      "reference": "1386",
+      "movement": "P.900 Super Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Panerai",
+      "model_family": "Other Panerai",
+      "reference": "88 GMT",
+      "movement": "A7750 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Panerai",
+      "model_family": "Other Panerai",
+      "reference": "1336",
+      "movement": "P.900 Super Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Panerai",
+      "model_family": "Other Panerai",
+      "reference": "1323 GMT",
+      "movement": "P.9011 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Panerai",
+      "model_family": "Other Panerai",
+      "reference": "1324 Carbon",
+      "movement": "P.9011 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Panerai",
+      "model_family": "Other Panerai",
+      "reference": "1616 Carbotech",
+      "movement": "P.900/P.9010 Clone",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "VSF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Breitling",
+      "model_family": "Avenger",
+      "reference": "II GMT",
+      "movement": "Custom",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "GF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Breitling",
+      "model_family": "Avenger",
+      "reference": "B01 Chrono 45mm",
+      "movement": "Asian 7750",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "BLS"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Breitling",
+      "model_family": "Avenger",
+      "reference": "43mm",
+      "movement": "Asian 2824",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "OXF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Breitling",
+      "model_family": "Avenger",
+      "reference": "43mm GMT",
+      "movement": "Asian 2836",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "OXF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Breitling",
+      "model_family": "SuperOcean",
+      "reference": "Heritage Black V2",
+      "movement": "Custom",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "GF"
+        },
+        {
+          "rank": 2,
+          "factory": "OF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Breitling",
+      "model_family": "SuperOcean",
+      "reference": "Heritage II",
+      "movement": "A2824",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "GF/GOF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "Breitling",
+      "model_family": "Navitimer",
+      "reference": "1 41mm",
+      "movement": "Custom",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "V7F/VSF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": "Blue is best"
+    },
+    {
+      "brand": "Breitling",
+      "model_family": "Transocean",
+      "reference": "Day Date Blue",
+      "movement": "Custom",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "V7F/VSF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "Breitling",
+      "model_family": "Endurance Pro",
+      "reference": "All models",
+      "movement": "E10.212",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "OF"
+        }
+      ],
+      "tier": "NWBIG",
+      "notes": "Gen movement"
+    },
+    {
+      "brand": "IWC",
+      "model_family": "Big Pilot",
+      "reference": "SS",
+      "movement": "A23J",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "ZF"
+        },
+        {
+          "rank": 2,
+          "factory": "YLF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "IWC",
+      "model_family": "Big Pilot",
+      "reference": "Miramar",
+      "movement": "A23J",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "ZF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "IWC",
+      "model_family": "Big Pilot",
+      "reference": "Annual Calendar",
+      "movement": "A23J",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "AZF"
+        },
+        {
+          "rank": 2,
+          "factory": "YLF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "IWC",
+      "model_family": "Big Pilot",
+      "reference": "Tourbillon",
+      "movement": "Tourbillon",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "JBF"
+        },
+        {
+          "rank": 2,
+          "factory": "BBR"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "IWC",
+      "model_family": "Pilot",
+      "reference": "Mark XVIII/XX SS (A2892)",
+      "movement": "A2892",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "V7F"
+        },
+        {
+          "rank": 2,
+          "factory": "M+F"
+        },
+        {
+          "rank": 3,
+          "factory": "AOF/YBF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "IWC",
+      "model_family": "Pilot",
+      "reference": "Mark XVIII/XX SS (Miyota)",
+      "movement": "9015 Miyota",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "ZF"
+        },
+        {
+          "rank": 2,
+          "factory": "BLSF"
+        },
+        {
+          "rank": 3,
+          "factory": "MKF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "IWC",
+      "model_family": "Pilot",
+      "reference": "Mark XVIII/XX Ceramic (A2892)",
+      "movement": "A2892",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "M+F"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "IWC",
+      "model_family": "Pilot",
+      "reference": "Mark XVIII/XX Ceramic (Miyota)",
+      "movement": "9015 Miyota",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "ZF"
+        },
+        {
+          "rank": 2,
+          "factory": "BLSF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "IWC",
+      "model_family": "Pilot",
+      "reference": "Spitfire Chrono 3878",
+      "movement": "A7750",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "V6F/VSF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "IWC",
+      "model_family": "Pilot",
+      "reference": "Pilot Chronograph (ETA)",
+      "movement": "ETA 7750",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "OF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "IWC",
+      "model_family": "Pilot",
+      "reference": "Pilot Chronograph (Clone)",
+      "movement": "Clone 69385",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "APSF"
+        }
+      ],
+      "tier": "NWBIG",
+      "notes": null
+    },
+    {
+      "brand": "IWC",
+      "model_family": "Da Vinci",
+      "reference": "All models",
+      "movement": "Custom",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "TW"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "IWC",
+      "model_family": "Portofino",
+      "reference": "Standard",
+      "movement": "Custom",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "AF"
+        },
+        {
+          "rank": 2,
+          "factory": "V7F"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "IWC",
+      "model_family": "Portofino",
+      "reference": "150 Years Anniversary",
+      "movement": "Custom",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "V7F"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "IWC",
+      "model_family": "Portugieser",
+      "reference": "Chrono (7750)",
+      "movement": "Modified 7750",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "ZF"
+        },
+        {
+          "rank": 2,
+          "factory": "AZF"
+        },
+        {
+          "rank": 3,
+          "factory": "YLF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "IWC",
+      "model_family": "Portugieser",
+      "reference": "Chrono (Clone)",
+      "movement": "Clone 69355",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "APSF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "IWC",
+      "model_family": "Portugieser",
+      "reference": "Yacht Chrono",
+      "movement": "Asian 7750",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "ZF"
+        },
+        {
+          "rank": 2,
+          "factory": "APF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "IWC",
+      "model_family": "Portugieser",
+      "reference": "Small Seconds",
+      "movement": "Custom",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "ZF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "IWC",
+      "model_family": "Portugieser",
+      "reference": "Tourbillon",
+      "movement": "Tourbillon",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "TC F"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "IWC",
+      "model_family": "Portugieser",
+      "reference": "Perpetual Calendar",
+      "movement": "Custom 9015",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "APSF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "IWC",
+      "model_family": "Portugieser",
+      "reference": "Annual Calendar",
+      "movement": "Custom",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "ZF"
+        },
+        {
+          "rank": 2,
+          "factory": "AZF"
+        },
+        {
+          "rank": 3,
+          "factory": "YLF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "IWC",
+      "model_family": "Portugieser",
+      "reference": "7 Days",
+      "movement": "Custom",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "ZF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "IWC",
+      "model_family": "Aquatimer",
+      "reference": "Chrono",
+      "movement": "Asian 7750",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "V6SF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "IWC",
+      "model_family": "Aquatimer",
+      "reference": "IW3290 Date only",
+      "movement": "Asian 2892",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "V6SF"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "IWC",
+      "model_family": "Aquatimer",
+      "reference": "Automatic",
+      "movement": "Asian 2892",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "V6SF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "IWC",
+      "model_family": "Ingenieur",
+      "reference": "Vintage model",
+      "movement": "Miyota 9015",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "AIF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    },
+    {
+      "brand": "IWC",
+      "model_family": "Ingenieur",
+      "reference": "Standard",
+      "movement": "2892",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "V7F"
+        }
+      ],
+      "tier": "Super Rep",
+      "notes": null
+    },
+    {
+      "brand": "IWC",
+      "model_family": "Ingenieur",
+      "reference": "Carbon",
+      "movement": "Miyota 9015",
+      "recommendations": [
+        {
+          "rank": 1,
+          "factory": "CF"
+        }
+      ],
+      "tier": null,
+      "notes": null
+    }
+  ],
+  "newbie_guide": {
+    "title": "How to Buy a Replica Watch",
+    "summary": "Step-by-step walkthrough from choosing a trusted dealer to receiving your watch. Based on community knowledge from RepTime, RWI, and RepGeek.",
+    "steps": [
+      {
+        "step": "Step 1",
+        "title": "Choose a trusted dealer",
+        "paragraphs": [
+          "A Trusted Dealer (TD) is a seller vetted by one of the major forums — RWI, RepGeek, or RWG. They've built a track record with a large customer base and are subject to active forum moderation if a transaction goes wrong. Most TDs offer a customs seizure guarantee.",
+          "Use our TD List or the official forum TD pages to find a dealer. Any TD can source any watch currently in production — their websites are catalogs, not inventories."
+        ],
+        "options": [],
+        "tips": [],
+        "payment_methods": null,
+        "chat_examples": null,
+        "callouts": [
+          {
+            "kind": "danger",
+            "title": "Never Google a TD website.",
+            "body": "There are known scammers using similar-looking domains. Only use links from this site or from official forum TD lists"
+          },
+          {
+            "kind": "info",
+            "title": "RepTime has no official TDs.",
+            "body": "Dealers with \"trusted\" flair on Reddit hold that status through external forums"
+          }
+        ]
+      },
+      {
+        "step": "Step 2",
+        "title": "Choose your watch and factory",
+        "paragraphs": [
+          "Replicas are built by specific factories — CF, VSF, ZF, BP, GMF, EWF, and others. Quality depends heavily on which factory made it. Use the community's factory guide to find the best version of the model you want."
+        ],
+        "options": [],
+        "tips": [
+          "High-tier replicas: $350–$900",
+          "Mid-tier (budget): $250–$400, less fine detail",
+          "Bottom-tier (DHGate/AliExpress): $30–$200."
+        ],
+        "payment_methods": null,
+        "chat_examples": null,
+        "callouts": []
+      },
+      {
+        "step": "Step 3",
+        "title": "Place your order",
+        "paragraphs": [
+          "Confirm with your TD that the factory still produces the watch (\"in stock\"). Three ways to order:"
+        ],
+        "options": [
+          {
+            "title": "Option A: WhatsApp (recommended)",
+            "content": [
+              "Fastest method. Message your TD with the model and factory:",
+              "Remember time zones — allow 12–24 hours for a reply during busy periods."
+            ]
+          },
+          {
+            "title": "Option B: TD website",
+            "content": [
+              "Email the TD first to confirm the watch is still produced — many websites are outdated. This route is slower."
+            ]
+          },
+          {
+            "title": "Option C: Email or forum DM",
+            "content": [
+              "Some TDs are only reachable this way. Slowest option."
+            ]
+          }
+        ],
+        "tips": [],
+        "payment_methods": null,
+        "chat_examples": [
+          [
+            "You: Hi, can you source me a VSF 116610LN? In stock? How long for QC and how much?",
+            "TD: Hi, $568 free shipping. In stock, 3-day QC."
+          ]
+        ],
+        "callouts": [
+          {
+            "kind": "danger",
+            "title": "Do not enter credit or debit card details",
+            "body": "on TD websites. Use the payment methods below"
+          }
+        ]
+      },
+      {
+        "step": "Step 4",
+        "title": "Payment",
+        "paragraphs": [
+          "Most TDs will guide you through payment:"
+        ],
+        "options": [],
+        "tips": [],
+        "payment_methods": [
+          {
+            "name": "Wise",
+            "description": "Best rates, easy to use. Recommended"
+          },
+          {
+            "name": "Western Union",
+            "description": "Widely accepted. Slightly higher fees"
+          },
+          {
+            "name": "PayPal F&F",
+            "description": "Some TDs accept. May require prior history"
+          },
+          {
+            "name": "Crypto",
+            "description": "Send to TD's wallet. Record the transaction"
+          }
+        ],
+        "chat_examples": null,
+        "callouts": [
+          {
+            "kind": "warning",
+            "title": "Avoid credit/debit cards",
+            "body": "unless using a one-time virtual card number. The third-party payment processor may not be trustworthy"
+          }
+        ]
+      },
+      {
+        "step": "Step 5",
+        "title": "Quality control (QC)",
+        "paragraphs": [
+          "After payment, the TD sends QC photos of your specific watch. Can take hours to 2 weeks."
+        ],
+        "options": [],
+        "tips": [
+          "No QC in 2 weeks? Message your TD for an update",
+          "Post QC photos to r/RepTimeQC for community feedback",
+          "Look up previous QC posts for the same model",
+          "GL (green light) = accept. RL (red light) = request different unit",
+          "Actually check the details — don't just write \"looks good\""
+        ],
+        "payment_methods": null,
+        "chat_examples": null,
+        "callouts": []
+      },
+      {
+        "step": "Step 6",
+        "title": "Shipping and delivery",
+        "paragraphs": [
+          "Takes 1 week to 2 months. Use 17Track to monitor. Most TDs include customs seizure warranty."
+        ],
+        "options": [],
+        "tips": [],
+        "payment_methods": null,
+        "chat_examples": null,
+        "callouts": [
+          {
+            "kind": "warning",
+            "title": "Customs letter?",
+            "body": "Do not reply. Contact your TD. Wait it out"
+          }
+        ]
+      },
+      {
+        "step": "Step 7",
+        "title": "Receiving your watch",
+        "paragraphs": [],
+        "options": [],
+        "tips": [
+          "Bracelet: Buy a decent removal tool before the watch arrives",
+          "Accuracy: ±30 sec/day is normal unserviced. Get it serviced for better performance",
+          "Water resistance: Assume NOT water resistant until tested",
+          "Problems? Work it out with TD first. File dispute on their forum if needed"
+        ],
+        "payment_methods": null,
+        "chat_examples": null,
+        "callouts": [
+          {
+            "kind": "success",
+            "title": "✓ Tip:",
+            "body": "Don't pretend it's genuine at a jeweler — they'll know. Being upfront is always better"
+          }
+        ]
+      }
+    ]
+  },
+  "glossary": [
+    {
+      "category": "General terms",
+      "terms": [
+        {
+          "term": "Rep",
+          "definition": "Replica — a copy of a genuine watch."
+        },
+        {
+          "term": "Gen",
+          "definition": "Genuine — the authentic version of a watch."
+        },
+        {
+          "term": "Shitter",
+          "definition": "A low-quality replica, usually from DHGate or AliExpress."
+        },
+        {
+          "term": "Franken",
+          "definition": "Adding genuine or aftermarket parts to a replica to make it closer to gen. Common upgrades: crystals, bezels, dials."
+        },
+        {
+          "term": "NWBIG",
+          "definition": "Not Worth Buying In Gen — the replica is so close that buying genuine isn't justified for most people."
+        },
+        {
+          "term": "W2C / WTC",
+          "definition": "\"Where to cop\" — asking where someone bought a watch or requesting a link."
+        },
+        {
+          "term": "Tells",
+          "definition": "Flaws in a replica that distinguish it from genuine. All reps have tells."
+        }
+      ]
+    },
+    {
+      "category": "Dealers & forums",
+      "terms": [
+        {
+          "term": "TD",
+          "definition": "Trusted Dealer — vetted and approved by a major forum (RWI, RepGeek, RWG). Subject to forum moderation."
+        },
+        {
+          "term": "RWI",
+          "definition": "Replica Watch Info — one of the largest and oldest forums with strict TD vetting."
+        },
+        {
+          "term": "RepGeek",
+          "definition": "Replica Watch Geek — major forum with its own TD list and active community."
+        },
+        {
+          "term": "RWG",
+          "definition": "Replica Watch Group — established forum with its own TD roster."
+        },
+        {
+          "term": "RepTime",
+          "definition": "r/RepTime on Reddit — largest community. Has no official TDs; trusted flair comes from external forums."
+        },
+        {
+          "term": "ChinaTime",
+          "definition": "r/ChinaTime — focused on budget replicas ($30–$120) from DHGate and AliExpress."
+        }
+      ]
+    },
+    {
+      "category": "QC & ordering",
+      "terms": [
+        {
+          "term": "QC",
+          "definition": "Quality Control — photos/video of your specific watch sent by the TD before shipping."
+        },
+        {
+          "term": "GL",
+          "definition": "Green Light — approve the watch for shipping."
+        },
+        {
+          "term": "RL",
+          "definition": "Red Light — reject the watch, request a different unit."
+        },
+        {
+          "term": "In stock",
+          "definition": "Factory currently producing the watch. Always confirm with your TD before ordering."
+        },
+        {
+          "term": "Customs seizure warranty",
+          "definition": "Most TDs guarantee a free replacement if your watch is seized by customs."
+        }
+      ]
+    },
+    {
+      "category": "Factories",
+      "terms": [
+        {
+          "term": "CF / Clean Factory",
+          "definition": "Top Rolex specialist — Submariner, GMT-Master II, Daytona."
+        },
+        {
+          "term": "VSF",
+          "definition": "Best for Omega (Seamaster, Planet Ocean) and Panerai. Excellent finishing."
+        },
+        {
+          "term": "ZF",
+          "definition": "Known for AP, IWC, and Patek Philippe."
+        },
+        {
+          "term": "ARF",
+          "definition": "Rolex Daytona and Datejust. Great bracelet quality."
+        },
+        {
+          "term": "BP",
+          "definition": "Budget Rolex factory. Decent quality, lower price."
+        },
+        {
+          "term": "GMF",
+          "definition": "Rolex Day-Date and Datejust models."
+        },
+        {
+          "term": "Noob",
+          "definition": "Once top-tier (famous for Daytona). Shut down after raid. No longer producing.",
+          "tags": [
+            "No longer producing."
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Watch parts",
+      "terms": [
+        {
+          "term": "2xAR xtal",
+          "definition": "Sapphire crystal with 2 layers of anti-reflective coating."
+        },
+        {
+          "term": "SEL",
+          "definition": "Solid End Link — connects bracelet to case. Tight fit = quality sign."
+        },
+        {
+          "term": "DW",
+          "definition": "Date Wheel — disc showing the date. Alignment and font are common QC points."
+        },
+        {
+          "term": "Cyclops",
+          "definition": "Magnifying lens over date window. 2.5x on gen; a common tell on reps."
+        },
+        {
+          "term": "Bezel",
+          "definition": "Ring around the dial. Alignment is a frequent QC check."
+        },
+        {
+          "term": "Lume",
+          "definition": "Luminescent material on hands and indices. Color and application are QC points."
+        },
+        {
+          "term": "Rehaut",
+          "definition": "Inner ring between dial and crystal. Engraved on Rolex — alignment is a tell."
+        },
+        {
+          "term": "Clone movement",
+          "definition": "Replica movement mimicking the genuine caliber visually and functionally."
+        }
+      ]
+    },
+    {
+      "category": "Platforms & tools",
+      "terms": [
+        {
+          "term": "DHGate / AliExpress",
+          "definition": "Chinese marketplaces selling bottom-tier replicas. No QC, buyer beware."
+        },
+        {
+          "term": "17Track",
+          "definition": "Tracking app for international shipments. Recommended for monitoring delivery."
+        },
+        {
+          "term": "Wise",
+          "definition": "International money transfer service. Good rates, easy to use. Common TD payment method."
+        },
+        {
+          "term": "Serge Barr",
+          "definition": "Community joke for the Reddit search bar. \"Use Serge Barr\" = search before asking."
+        }
+      ]
+    }
+  ],
+  "factories": {
+    "title": "Factories & Quality Tiers",
+    "intro": "Understanding which factory makes the best version of your desired model is the most important step in choosing your watch.",
+    "quality_tiers": [
+      {
+        "label": "HIGH TIER",
+        "name": "Top factory replicas",
+        "description": "Clean, VSF, ZF, etc. 904L steel, sapphire crystal, clone movements. Closely resembles genuine in look, feel, and weight. Minor tells only.",
+        "price_range": "$350 – $900+"
+      },
+      {
+        "label": "MID TIER",
+        "name": "Budget factory replicas",
+        "description": "Good quality but lacking finer details. Solid option at a lower price if you accept minor inaccuracies.",
+        "price_range": "$250 – $400"
+      },
+      {
+        "label": "BOTTOM",
+        "name": "DHGate / AliExpress",
+        "description": "Cheap, no QC, poor materials. Barely resemble the originals. Only for tight budgets with zero expectations.",
+        "price_range": "$30 – $200"
+      }
+    ],
+    "major_factories": [
+      {
+        "factory": "Clean (CF)",
+        "specialty": "Rolex"
+      },
+      {
+        "factory": "VSF",
+        "specialty": "Omega, Panerai"
+      },
+      {
+        "factory": "ZF",
+        "specialty": "AP, IWC, Patek"
+      },
+      {
+        "factory": "ARF",
+        "specialty": "Rolex DJ, Daytona"
+      },
+      {
+        "factory": "BP",
+        "specialty": "Budget Rolex"
+      },
+      {
+        "factory": "GMF",
+        "specialty": "Day-Date"
+      },
+      {
+        "factory": "EWF",
+        "specialty": "Budget options"
+      },
+      {
+        "factory": "JF",
+        "specialty": "AP ROO"
+      },
+      {
+        "factory": "Noob",
+        "specialty": "Raided ✕"
+      }
+    ],
+    "community_guides": [
+      {
+        "name": "\"Who makes the best?\"",
+        "description": "Best factory for each popular model — the single most important resource"
+      },
+      {
+        "name": "Budget/mid-tier guide",
+        "description": "Best replicas in the $250–$400 range"
+      },
+      {
+        "name": "Ladies watch guide",
+        "description": "Factory recommendations for women's watches"
+      },
+      {
+        "name": "NWBIG list",
+        "description": "\"Not Worth Buying In Gen\" — replica so close that genuine isn't worth the premium"
+      },
+      {
+        "name": "AP Royal Oak guide",
+        "description": "In-depth AP comparison across factories"
+      },
+      {
+        "name": "Rolex clasp codes",
+        "description": "Serial numbers and clasp codes for Rolex replicas"
+      }
+    ],
+    "gold_wrapping_diamonds": [
+      {
+        "title": "Gold plating",
+        "description": "Copper-based mixture approximating gold color. Significant scratches show steel underneath. Normal wear holds up well."
+      },
+      {
+        "title": "Gold wrapping",
+        "description": "Thicker, higher gold %. Can be lightly buffed. Notable step up from plating."
+      },
+      {
+        "title": "Diamonds",
+        "description": "CZ stones. Inconsistent placement, may fall out. Fine at a distance, won't hold up to close inspection."
+      }
+    ],
+    "movements": [
+      {
+        "topic": "Out-of-box accuracy",
+        "description": "±30 sec/day is normal and acceptable unserviced"
+      },
+      {
+        "topic": "Servicing",
+        "description": "Proper cleaning, oiling, regulation. Check RWI for watchmakers"
+      },
+      {
+        "topic": "Clone movements",
+        "description": "Higher-tier reps use clones that mimic genuine calibers"
+      },
+      {
+        "topic": "Setting date",
+        "description": "Advance hour hand until date changes, move to 6 o'clock, then adjust date"
+      }
+    ],
+    "callouts": [
+      {
+        "kind": "info",
+        "title": "TDs don't make watches.",
+        "body": "They're middlemen who order from factories in bulk and issue QC photos. This is why QC can be delayed",
+        "section": "Major factories"
+      },
+      {
+        "kind": "warning",
+        "title": "Factory status changes.",
+        "body": "What was best 6 months ago may not be today. Always check current forum discussions",
+        "section": "Community guides"
+      }
+    ]
+  },
+  "stats": {
+    "trusted_dealer_count": 33,
+    "who_makes_the_best_entries": 330,
+    "glossary_term_count": 37,
+    "glossary_category_count": 6,
+    "newbie_guide_step_count": 7,
+    "factory_quality_tier_count": 3,
+    "major_factory_count": 9,
+    "community_guide_count": 6
+  }
+}

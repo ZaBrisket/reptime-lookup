@@ -1,0 +1,21 @@
+{
+  "_doc": "Per-dealer search-URL templates. {q} is replaced with the watch's primary SKU token (e.g. '126610ln') unless qSource='brandFamily'. Dealers without an entry fall through to their homepage. Patterns derived from each dealer's homepage <form action=...>.",
+
+  "andiot-watches":           { "template": "https://andiotwatches.vip/index.php?route=product/search&search={q}", "qSource": "sku" },
+  "bigge-time":               { "template": "https://biggetime.io/?s={q}",                                          "qSource": "sku" },
+  "chazingtime":              { "template": "https://chazingtime08.io/?s={q}",                                      "qSource": "sku" },
+  "dealer-clocks":            { "template": "https://www.dealerclocks.io/?s={q}",                                   "qSource": "sku" },
+  "dukereps-duke-jones":      { "template": "https://dukereps.com/?s={q}",                                          "qSource": "sku" },
+  "geek-time":                { "template": "https://geektime.io/?s={q}",                                           "qSource": "sku" },
+  "intime-watches":           { "template": "https://www.intime06.co/search?search_query={q}",                      "qSource": "sku" },
+  "jtime-watch-store":        { "template": "https://jtime.io/?s={q}",                                              "qSource": "sku" },
+  "mirotime":                 { "template": "https://mirotime.pro/?s={q}",                                          "qSource": "sku" },
+  "moderntime":               { "template": "https://moderntimewatch.io/?s={q}",                                    "qSource": "sku" },
+  "necoclock":                { "template": "https://necoclock.ru/?s={q}",                                          "qSource": "sku" },
+  "puretime":                 { "template": "https://puretimewatch88.io/catalogsearch/result/?q={q}",               "qSource": "sku" },
+  "theleotime-leo":           { "template": "http://theleotime.com/index.php?main_page=advanced_search_result&search_in_description=1&keyword={q}", "qSource": "sku" },
+  "theonewatches":            { "template": "https://www.theonewatches.ws/index.php?route=product/search&search={q}", "qSource": "sku" },
+  "tkwatch":                  { "template": "https://tkwatch.xyz/?s={q}",                                           "qSource": "sku" },
+  "toro-bravo":               { "template": "https://www.toro.fun/?s={q}",                                          "qSource": "sku" },
+  "trusty-time":              { "template": "https://www.trustytime168.io/index.php?main_page=advanced_search_result&search_in_description=1&keyword={q}", "qSource": "sku" }
+}
