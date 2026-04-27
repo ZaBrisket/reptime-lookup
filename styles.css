@@ -195,6 +195,16 @@ input:focus-visible,
   flex-wrap: wrap;
   gap: 4px;
 }
+
+.browse-summary {
+  font: 11px var(--mono);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--fg-dim);
+  margin: 0 0 10px;
+  min-height: 1em;
+}
+.browse-summary:not(:empty)::before { content: "// "; color: var(--fg-dim); }
 .brand-chip {
   background: var(--surface);
   border: 1px solid var(--line);

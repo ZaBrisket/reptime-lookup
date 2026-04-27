@@ -23,6 +23,8 @@ const DATA_PATHS = {
   guide: "who-makes-the-best-guide.json",
   reptime: "reptime-help.json",
   images: "images.json", // optional; missing file is fine
+  dealerSearch: "dealer-search.json", // optional per-dealer search-URL templates
+  dealerDeepLinks: "dealer-deep-links.json", // optional (watch,dealer) → exact URL overrides
 };
 
 const MAX_RESULTS = 8;
@@ -42,6 +44,8 @@ const state = {
   families: [],        // grouped { id, brand, family, variants, ... }
   familyById: new Map(),
   images: {},          // family id → image URL (local or remote)
+  dealerSearch: {},    // dealer id → { template, qSource }
+  dealerDeepLinks: {}, // watch id → { dealer id → exact URL }
   brandFilter: "all",  // current filter on browse grid
   loaded: false,
 };
@@ -58,10 +62,12 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 async function init() {
-  const [guide, reptime, images] = await Promise.all([
+  const [guide, reptime, images, dealerSearch, dealerDeepLinks] = await Promise.all([
     fetchJson(DATA_PATHS.guide),
     fetchJson(DATA_PATHS.reptime),
     fetchJsonOptional(DATA_PATHS.images),
+    fetchJsonOptional(DATA_PATHS.dealerSearch),
+    fetchJsonOptional(DATA_PATHS.dealerDeepLinks),
   ]);
 
   state.watches = buildUnifiedWatches(guide, reptime);
@@ -73,6 +79,8 @@ async function init() {
   state.families = buildFamilies(state.watches);
   state.families.forEach((f) => state.familyById.set(f.id, f));
   state.images = images || {};
+  state.dealerSearch = dealerSearch || {};
+  state.dealerDeepLinks = dealerDeepLinks || {};
   state.loaded = true;
 
   renderStats();
@@ -316,13 +324,46 @@ function buildDealers(reptime) {
       (acc, c) => acc + (FORUM_WEIGHTS[c] || 0),
       0
     );
-    return { ...d, forum_codes: forumCodes, score };
+    return { ...d, id: slugify(d.name), forum_codes: forumCodes, score };
   });
   scored.sort((a, b) => {
     if (b.score !== a.score) return b.score - a.score;
     return (a.name || "").localeCompare(b.name || "");
   });
   return scored;
+}
+
+/**
+ * Resolve the best link for a (dealer, watch) pair.
+ * Returns { url, kind, q? } where kind ∈ "direct" | "search" | "home".
+ *   "direct" — exact product URL from dealer-deep-links.json
+ *   "search" — dealer search-URL template applied to the watch's primary SKU
+ *              (or "${brand} ${family}" when no SKU exists)
+ *   "home"   — fall through to the dealer's homepage
+ */
+function dealerLinkForWatch(dealer, w) {
+  if (!dealer || !dealer.id) {
+    return { url: dealer && dealer.website_url ? dealer.website_url : "", kind: "home" };
+  }
+  // 1. Hand-curated direct override
+  const direct = state.dealerDeepLinks?.[w.id]?.[dealer.id];
+  if (direct) return { url: direct, kind: "direct" };
+
+  // 2. Dealer search-URL template
+  const tmpl = state.dealerSearch?.[dealer.id];
+  if (tmpl && tmpl.template) {
+    const refTokens = w.reference ? tokenize(w.reference) : [];
+    const sku = primarySkuToken(refTokens);
+    const useSku = tmpl.qSource !== "brandFamily" && sku;
+    const q = useSku ? sku : `${w.brand || ""} ${w.model_family || ""}`.trim();
+    if (q) {
+      const url = tmpl.template.replace("{q}", encodeURIComponent(q));
+      return { url, kind: "search", q };
+    }
+  }
+
+  // 3. Homepage fallback
+  return { url: dealer.website_url || "", kind: "home" };
 }
 
 function buildFactoryInfo(reptime) {
@@ -676,20 +717,26 @@ function renderBrowseGrid() {
   // Brand chips (filter)
   const chipBox = $("#brand-chips");
   chipBox.innerHTML = "";
-  const allChip = makeBrandChip("all", "All", state.families.length);
+  const totalWatches = state.brands.reduce((n, b) => n + b.count, 0);
+  const allChip = makeBrandChip("all", "All", totalWatches);
   chipBox.appendChild(allChip);
   for (const { brand, count } of state.brands) {
     chipBox.appendChild(makeBrandChip(brand, brand, undefined, count));
   }
   updateChipActiveState();
 
-  // Family grid
+  renderBrowseGridBody();
+}
+
+function renderBrowseGridBody() {
   const grid = $("#family-grid");
   grid.innerHTML = "";
   const filter = state.brandFilter;
   const families = filter === "all"
     ? state.families
     : state.families.filter((f) => f.brand === filter);
+
+  updateBrowseSummary(families);
 
   if (!families.length) {
     const empty = document.createElement("div");
@@ -699,6 +746,15 @@ function renderBrowseGrid() {
     return;
   }
   for (const fam of families) grid.appendChild(renderFamilyCard(fam));
+}
+
+function updateBrowseSummary(families) {
+  const el = $("#browse-summary");
+  if (!el) return;
+  const watchCount = families.reduce((n, f) => n + f.variant_count, 0);
+  el.textContent =
+    `Showing ${families.length} famil${families.length === 1 ? "y" : "ies"}` +
+    ` · ${watchCount} watch${watchCount === 1 ? "" : "es"}`;
 }
 
 function makeBrandChip(value, label, exactCount, fallbackCount) {
@@ -711,12 +767,7 @@ function makeBrandChip(value, label, exactCount, fallbackCount) {
     state.brandFilter = value;
     updateChipActiveState();
     // Re-render only the grid; chips don't need rebuilding.
-    const grid = $("#family-grid");
-    grid.innerHTML = "";
-    const families = value === "all"
-      ? state.families
-      : state.families.filter((f) => f.brand === value);
-    for (const fam of families) grid.appendChild(renderFamilyCard(fam));
+    renderBrowseGridBody();
   });
   return btn;
 }
@@ -907,7 +958,7 @@ function renderCard(w, expanded) {
   dlrLabel.style.marginTop = "18px";
   dlrLabel.textContent = "Top trusted dealers";
   body.appendChild(dlrLabel);
-  body.appendChild(renderDealers());
+  body.appendChild(renderDealers(w));
 
   // Notes
   if (w.notes) {
@@ -998,7 +1049,7 @@ function renderFactoryRow(r) {
   return row;
 }
 
-function renderDealers() {
+function renderDealers(w) {
   const wrap = document.createElement("div");
   wrap.className = "dealers";
 
@@ -1008,7 +1059,7 @@ function renderDealers() {
   wrap.appendChild(note);
 
   const top = state.dealers.slice(0, MAX_DEALERS_DEFAULT);
-  for (let i = 0; i < top.length; i++) wrap.appendChild(renderDealerRow(top[i], i + 1));
+  for (let i = 0; i < top.length; i++) wrap.appendChild(renderDealerRow(top[i], i + 1, w));
 
   if (state.dealers.length > MAX_DEALERS_DEFAULT) {
     const more = document.createElement("button");
@@ -1017,14 +1068,14 @@ function renderDealers() {
     more.addEventListener("click", () => {
       more.remove();
       const rest = state.dealers.slice(MAX_DEALERS_DEFAULT);
-      rest.forEach((d, idx) => wrap.appendChild(renderDealerRow(d, MAX_DEALERS_DEFAULT + idx + 1)));
+      rest.forEach((d, idx) => wrap.appendChild(renderDealerRow(d, MAX_DEALERS_DEFAULT + idx + 1, w)));
     });
     wrap.appendChild(more);
   }
   return wrap;
 }
 
-function renderDealerRow(d, rank) {
+function renderDealerRow(d, rank, w) {
   const row = document.createElement("div");
   row.className = "dealer-row";
 
@@ -1042,14 +1093,25 @@ function renderDealerRow(d, rank) {
   }
   row.appendChild(name);
 
-  // Website
+  // Website — most-specific wins: direct override → dealer search → homepage
   if (d.website_url) {
+    const { url, kind, q } = dealerLinkForWatch(d, w);
     const a = document.createElement("a");
     a.className = "dealer-action";
-    a.href = d.website_url;
+    a.href = url || d.website_url;
     a.target = "_blank";
     a.rel = "noopener";
     a.textContent = "Website";
+    a.dataset.linkKind = kind;
+    const host = d.website || "site";
+    if (kind === "search") {
+      a.title = `Search for ${q} on ${host}`;
+    } else if (kind === "direct") {
+      const label = [w.brand, w.model_family, w.reference].filter(Boolean).join(" ");
+      a.title = `Open ${label} on ${host}`;
+    } else {
+      a.title = `Open ${host}`;
+    }
     row.appendChild(a);
   } else {
     row.appendChild(span("dealer-action disabled", "No site"));

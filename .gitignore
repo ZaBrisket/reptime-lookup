@@ -10,3 +10,6 @@ reptime_html/
 node_modules/
 .vscode/
 .idea/
+
+# Orphan-watch audit output (regenerate locally if dealer sidecars change)
+orphan-watches.txt
