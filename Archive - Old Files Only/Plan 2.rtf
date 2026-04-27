@@ -1,0 +1,225 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2868
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\froman\fcharset0 Times-Roman;\f1\froman\fcharset0 Times-Bold;\f2\fmodern\fcharset0 Courier;
+\f3\fnil\fcharset0 Menlo-Regular;\f4\froman\fcharset0 Times-Italic;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red109\green109\blue109;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c50196\c50196\c50196;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat0\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid201\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid3}
+{\list\listtemplateid4\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}}{\leveltext\leveltemplateid301\'01\'00;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid4}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}{\listoverride\listid4\listoverridecount0\ls4}}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\fs24 \cf0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Fair \'97 that plan was dense. Let me restart with plain English.\
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f1\b\fs36 \cf0 What you asked for\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\fs24 \cf0 Bug.
+\f0\b0  The "All" chip on the browse view says 
+\f2\fs26 83
+\f0\fs24 . The header says 
+\f2\fs26 485 RECORDS
+\f0\fs24 . You'd expect them to match.\
+
+\f1\b Feature.
+\f0\b0  When you expand a watch and click a dealer's "Website" button, it goes to the dealer's homepage. You want it to go straight to that specific watch on the dealer's site.\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f1\b\fs36 \cf0 \strokec2 What I'm proposing\
+\pard\pardeftab720\sa280\partightenfactor0
+
+\fs28 \cf0 Bug fix \'97 5 minutes of work\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\b0\fs24 \cf0 Two different counts exist in the data:\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls1\ilvl0
+\f1\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 485 watches
+\f0\b0  = every individual record (e.g., Submariner 126610LN with 3235 Clone movement is one record; Submariner 126610LN with 2836 Asian movement is another).\
+\ls1\ilvl0
+\f1\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 83 model families
+\f0\b0  = unique brand + family pairs (all Submariner records collapse into 1 family).\
+\pard\pardeftab720\sa240\partightenfactor0
+\cf0 The "All" chip was wired to show families (83). The per-brand chips (
+\f2\fs26 ROLEX 108
+\f0\fs24 ) show watch counts. That inconsistency is the bug.\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\b \cf0 Fix:
+\f0\b0  make "All" show 
+\f2\fs26 485
+\f0\fs24  so it matches the rest. Add a small one-line caption above the cards that says 
+\f2\fs26 // SHOWING 83 FAMILIES
+\f0\fs24  so you understand why fewer cards appear than the chip number \'97 the cards on the browse view are families, not individual watches.\
+\pard\pardeftab720\sa280\partightenfactor0
+
+\f1\b\fs28 \cf0 Deep-links \'97 the honest version\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\b0\fs24 \cf0 Here's the tradeoff you need to understand before I commit to an approach:\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\b \cf0 There is no clean way to deep-link to "the exact watch" on every dealer's site automatically.
+\f0\b0  Dealers don't have APIs. Each runs their own catalog on WordPress, OpenCart, Shopify, or custom code. To get a 100% exact "/product/sub-126610ln/" URL for every (watch \'d7 dealer) combination would require either:\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls2\ilvl0
+\f1\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 (A) Web-scraping every dealer's catalog.
+\f0\b0  Fragile, Cloudflare-blocked, breaks every time a dealer changes a URL. Not honest engineering.\
+\ls2\ilvl0
+\f1\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 (B) Hand-curating 33 dealers \'d7 485 watches = ~16,000 URLs.
+\f0\b0  Not realistic.\
+\ls2\ilvl0
+\f1\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 (C) Using each dealer's built-in search.
+\f0\b0  For most dealers, you can construct a URL like 
+\f2\fs26 https://jtime.io/?s=126610LN
+\f0\fs24  that runs a search on their site for the watch's reference number. The user lands on a search results page showing matching products.\
+\pard\pardeftab720\sa240\partightenfactor0
+\cf0 My plan = 
+\f1\b (C) by default + (B) as an opt-in for watches you really care about
+\f0\b0 .\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\b \cf0 Concretely, when you click "Website" on JTime for the Submariner 116610LN:
+\f0\b0 \
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrt\brdrnil \trbrdrl\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth6055\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth8666\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\qc\partightenfactor0
+
+\f1\b \cf0 Today\cell 
+\pard\intbl\itap1\pardeftab720\qc\partightenfactor0
+\cf0 After this change\cell \row
+
+\itap1\trowd \taflags0 \trgaph108\trleft-108 \trbrdrl\brdrnil \trbrdrt\brdrnil \trbrdrr\brdrnil 
+\clvertalc \clshdrawnil \clwWidth6055\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx4320
+\clvertalc \clshdrawnil \clwWidth8666\clftsWidth3 \clmart10 \clmarl10 \clmarb10 \clmarr10 \clbrdrt\brdrnil \clbrdrl\brdrnil \clbrdrb\brdrnil \clbrdrr\brdrnil \clpadt20 \clpadl20 \clpadb20 \clpadr20 \gaph\cellx8640
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f2\b0\fs26 \cf0 https://jtime.io
+\f0\fs24  (homepage \'97 you have to navigate)\cell 
+\pard\intbl\itap1\pardeftab720\partightenfactor0
+
+\f2\fs26 \cf0 https://jtime.io/?s=116610LN
+\f0\fs24  (their search results for that exact reference)\cell \lastrow\row
+\pard\pardeftab720\sa240\partightenfactor0
+\cf0 That's a meaningful improvement: instead of hunting through their menu, you land on a page filtered to that watch.\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\b \cf0 For watches you want a perfect direct URL:
+\f0\b0  I create a file 
+\f2\fs26 dealer-deep-links.json
+\f0\fs24 . You (or I, when you find the URL) can drop in entries like:\
+\pard\pardeftab720\partightenfactor0
+
+\f2\fs26 \cf0 \{\
+  "rolex-submariner-126610ln-126610lv-126619lb": \{\
+    "jtime-watch-store": "https://jtime.io/product/the-exact-page/"\
+  \}\
+\}\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\fs24 \cf0 When this entry exists, that exact URL wins over the search URL. You upgrade individual high-priority watches over time.\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\b \cf0 Fallback:
+\f0\b0  if neither a direct URL nor a search URL works for a dealer (e.g., their site doesn't have search), the button still goes to the homepage like today. So nothing gets worse.\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f1\b\fs36 \cf0 \strokec2 How the click resolves (most-specific wins)\
+\pard\pardeftab720\partightenfactor0
+
+\f2\b0\fs26 \cf0 Click "Website" on dealer X for watch Y\
+        
+\f3 \uc0\u9474 
+\f2 \
+        
+\f3 \uc0\u9660 
+\f2 \
+1. Is there a hand-curated URL for (Y, X) in dealer-deep-links.json?\
+   YES 
+\f3 \uc0\u8594 
+\f2  use that exact URL.                      [DIRECT]\
+        
+\f3 \uc0\u9474 
+\f2 \
+        
+\f3 \uc0\u9660 
+\f2   no\
+2. Does dealer X have a search URL pattern in dealer-search.json?\
+   YES 
+\f3 \uc0\u8594 
+\f2  fill \{q\} with watch Y's reference (e.g., 126610LN). [SEARCH]\
+        
+\f3 \uc0\u9474 
+\f2 \
+        
+\f3 \uc0\u9660 
+\f2   no\
+3. Use the dealer's homepage (current behavior).            [HOME]\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\fs24 \cf0 The button text stays 
+\f2\fs26 [ WEBSITE ]
+\f0\fs24  so the UI doesn't get cluttered. A tooltip on hover tells you which kind of link you'll get: 
+\f4\i "Search for 126610LN on jtime.io"
+\f0\i0  vs 
+\f4\i "Direct product link"
+\f0\i0  vs 
+\f4\i "Dealer homepage"
+\f0\i0 .\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f1\b\fs36 \cf0 \strokec2 Will this actually achieve your objective?\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f0\b0\fs24 \cf0 Honestly: 
+\f1\b partially, with an upgrade path.
+\f0\b0 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls3\ilvl0
+\f1\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Day 1 of this change:
+\f0\b0  every dealer link goes to a search results page on the dealer's site for the watch's reference number. That's ~85% of the way to "the exact watch" \'97 you land on a tightly filtered list (often 1\'963 results) instead of the homepage. For most reference numbers like 
+\f2\fs26 126610LN
+\f0\fs24 , the dealer's search returns the exact product as the first hit.\
+\ls3\ilvl0
+\f1\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Over time:
+\f0\b0  you (or me, in follow-up sessions) fill in 
+\f2\fs26 dealer-deep-links.json
+\f0\fs24  with exact product URLs for the watches you care most about. Those become 100% perfect direct links. The structure is already there to support unlimited overrides.\
+\pard\pardeftab720\sa240\partightenfactor0
+\cf0 Going from "homepage" to "filtered search results page for the right reference" is a real, immediate win that works for all 33 dealers \'d7 all 485 watches without me hand-curating thousands of URLs. The override file is the path to perfection for the watches that matter most to you.\
+\pard\pardeftab720\partightenfactor0
+\cf3 \strokec3 \
+\pard\pardeftab720\sa240\partightenfactor0
+\cf0 \strokec2 Does this approach match what you want? Two things you might want to redirect:\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls4\ilvl0
+\f1\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	1	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Should the search-URL default be enough
+\f0\b0 , or do you want me to also research-and-curate exact product URLs for, say, the top-tier dealers \'d7 top-20 most popular watches as part of this change?\
+\ls4\ilvl0
+\f1\b \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	2	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 For dealers where the search URL doesn't actually work
+\f0\b0  (some don't have search), should I still try the search pattern and let it 404 gracefully, or strictly fall back to homepage?\
+\pard\pardeftab720\sa240\partightenfactor0
+\cf0 Let me know and I'll re-write the plan to match.\
+}

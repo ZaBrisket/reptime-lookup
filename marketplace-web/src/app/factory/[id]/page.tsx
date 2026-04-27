@@ -1,6 +1,8 @@
 import { getData } from "@/lib/server-data";
 import Link from "next/link";
 import WatchCard from "@/components/WatchCard";
+import ReviewSection from "@/components/ReviewSection";
+import { prisma } from "@/lib/prisma";
 
 export function generateStaticParams() {
   const state = getData();
@@ -23,6 +25,12 @@ export default async function FactoryPage({ params }: { params: Promise<{ id: st
   const recommendedWatches = state.watches.filter(w => 
     w.recommendations.some(r => r.factory === decodedId)
   );
+
+  const reviews = await prisma.review.findMany({
+    where: { targetType: "factory", targetId: decodedId },
+    include: { user: { select: { email: true } } },
+    orderBy: { createdAt: "desc" }
+  });
 
   return (
     <main className="main">
@@ -54,6 +62,8 @@ export default async function FactoryPage({ params }: { params: Promise<{ id: st
           )}
         </div>
       </div>
+
+      <ReviewSection targetType="factory" targetId={decodedId} initialReviews={reviews as any} />
     </main>
   );
 }

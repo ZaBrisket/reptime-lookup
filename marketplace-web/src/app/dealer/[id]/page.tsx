@@ -1,6 +1,8 @@
 import { getData } from "@/lib/server-data";
 import Link from "next/link";
 import WatchCard from "@/components/WatchCard";
+import ReviewSection from "@/components/ReviewSection";
+import { prisma } from "@/lib/prisma";
 
 export function generateStaticParams() {
   const state = getData();
@@ -23,6 +25,12 @@ export default async function DealerPage({ params }: { params: Promise<{ id: str
   // Find watches that have an offer from this dealer in the catalog
   const inventory = state.watches.filter(w => {
     return state.dealerCatalog?.offers?.[w.id]?.[dealer.id];
+  });
+
+  const reviews = await prisma.review.findMany({
+    where: { targetType: "dealer", targetId: id },
+    include: { user: { select: { email: true } } },
+    orderBy: { createdAt: "desc" }
   });
 
   return (
@@ -62,6 +70,8 @@ export default async function DealerPage({ params }: { params: Promise<{ id: str
           )}
         </div>
       </div>
+
+      <ReviewSection targetType="dealer" targetId={id} initialReviews={reviews as any} />
     </main>
   );
 }

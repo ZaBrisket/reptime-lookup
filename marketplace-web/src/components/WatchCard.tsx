@@ -2,6 +2,7 @@ import Link from "next/link";
 import { WatchRecord, AppState } from "@/lib/types";
 import { getLowestPrice } from "@/lib/utils";
 import { watchImageUrl } from "@/lib/images";
+import FavoriteButton from "./FavoriteButton";
 
 export default function WatchCard({ w, state }: { w: WatchRecord; state: AppState }) {
   const imageUrl = watchImageUrl(w, state);
@@ -15,7 +16,7 @@ export default function WatchCard({ w, state }: { w: WatchRecord; state: AppStat
           {!imageUrl && <span className="brand-placeholder">{w.brand || "—"}</span>}
         </div>
         <div className="card-title-wrap">
-          <div className="card-title-line">
+          <div className="card-title-line" style={{ display: 'flex', alignItems: 'center' }}>
             <span className="brand">{w.brand || "Unknown"}</span>
             {w.model_family && (
               <>
@@ -24,6 +25,7 @@ export default function WatchCard({ w, state }: { w: WatchRecord; state: AppStat
               </>
             )}
             {w.legacy && <span className="legacy-tag">legacy</span>}
+            <FavoriteButton watchId={w.id} />
           </div>
           <div className="card-title-sub">
             {w.reference && <span className="ref">{w.reference}</span>}
