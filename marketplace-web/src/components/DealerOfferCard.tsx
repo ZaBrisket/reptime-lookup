@@ -1,10 +1,14 @@
 import { WatchRecord, DealerRecord, AppState } from "@/lib/types";
 import { dealerLinkForWatch } from "@/lib/utils";
 import Link from "next/link";
+import DeepLinkModal from "./DeepLinkModal";
 
-export default function DealerOfferCard({ w, dealer, state, rank }: { w: WatchRecord; dealer: DealerRecord; state: AppState; rank: number }) {
+export default function DealerOfferCard({ w, dealer, state, rank, dbUrl }: { w: WatchRecord; dealer: DealerRecord; state: AppState; rank: number; dbUrl?: string | null }) {
   const link = dealerLinkForWatch(dealer, w, state);
   const offer = link.offer;
+  
+  // Override with database deep link if available
+  const finalUrl = dbUrl || link.url;
   
   const priceDisplay = offer?.price ? `$${offer.price} ${offer.currency || "USD"}` : "Check Site";
   const inStock = offer?.in_stock;
@@ -28,10 +32,11 @@ export default function DealerOfferCard({ w, dealer, state, rank }: { w: WatchRe
           </div>
         )}
       </div>
-      <div className="dealer-footer">
-        <a href={link.url} target="_blank" rel="noopener noreferrer" className="dealer-cta">
+      <div className="dealer-footer" style={{ display: "flex", alignItems: "center" }}>
+        <a href={finalUrl} target="_blank" rel="noopener noreferrer" className="dealer-cta">
           [ VIEW ON SITE ]
         </a>
+        <DeepLinkModal watchId={w.id} dealerId={dealer.id} dealerName={dealer.name} currentUrl={finalUrl} />
       </div>
     </div>
   );

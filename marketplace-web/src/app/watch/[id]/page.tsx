@@ -3,6 +3,7 @@ import { slugify } from "@/lib/utils";
 import { watchImageUrl } from "@/lib/images";
 import Link from "next/link";
 import DealerOfferCard from "@/components/DealerOfferCard";
+import { prisma } from "@/lib/prisma";
 
 export function generateStaticParams() {
   const state = getData();
@@ -22,6 +23,14 @@ export default async function WatchPage({ params }: { params: Promise<{ id: stri
 
   const famId = `${slugify(w.brand)}--${slugify(w.model_family)}`;
   const imgUrl = watchImageUrl(w, state);
+
+  // Fetch community/admin deep links from Postgres
+  const dbDeepLinks = await prisma.deepLink.findMany({
+    where: { watchId: w.id }
+  });
+  const dbLinksByDealer = Object.fromEntries(
+    dbDeepLinks.map(l => [l.dealerId, l.url])
+  );
 
   // Group and sort dealer offers by rank
   const offersWithDealers = state.dealers.map(d => {
@@ -95,7 +104,14 @@ export default async function WatchPage({ params }: { params: Promise<{ id: stri
         {offersWithDealers.length > 0 ? (
           <div className="dealer-offers-grid">
             {offersWithDealers.map((x, idx) => (
-              <DealerOfferCard key={x.dealer.id} w={w} dealer={x.dealer} state={state} rank={idx + 1} />
+              <DealerOfferCard 
+                key={x.dealer.id} 
+                w={w} 
+                dealer={x.dealer} 
+                state={state} 
+                rank={idx + 1} 
+                dbUrl={dbLinksByDealer[x.dealer.id]}
+              />
             ))}
           </div>
         ) : (

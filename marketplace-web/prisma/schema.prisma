@@ -13,9 +13,11 @@ model User {
   email     String   @unique
   password  String
   createdAt DateTime @default(now())
+  isAdmin   Boolean  @default(false)
 
   favorites Favorite[]
   reviews   Review[]
+  deepLinks DeepLink[]
 }
 
 model Favorite {
@@ -39,4 +41,19 @@ model Review {
   createdAt  DateTime @default(now())
 
   user       User     @relation(fields: [userId], references: [id])
+}
+
+model DeepLink {
+  id        String   @id @default(cuid())
+  watchId   String
+  dealerId  String
+  url       String
+  userId    String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  user      User     @relation(fields: [userId], references: [id])
+
+  // Only one deep link per dealer per watch
+  @@unique([watchId, dealerId])
 }
