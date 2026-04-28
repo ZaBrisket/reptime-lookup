@@ -101,8 +101,7 @@ async def main():
 
         watches = guide.get("watches", [])
         print(f"Found {len(watches)} watches in guide.")
-        # Only do first 10 for testing
-        watches_to_scrape = watches[:10]
+        watches_to_scrape = watches
         
         for w in watches_to_scrape:
             brand = str(w.get('brand', '')).lower().replace(r'[^a-z0-9]', '')
