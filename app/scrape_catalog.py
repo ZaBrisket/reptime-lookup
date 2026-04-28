@@ -85,6 +85,15 @@ async def scrape_dealer(context, dealer_id, search_url):
         await page.close()
     return None
 
+async def scrape_with_semaphore(semaphore, context, d_id, search_url, watch_id, catalog):
+    async with semaphore:
+        offer = await scrape_dealer(context, d_id, search_url)
+        if offer:
+            offer['scraped_at'] = catalog['scraped_at']
+            print(f"Found offer for {watch_id} at {d_id}: ${offer['price']}")
+            return watch_id, d_id, offer
+        return watch_id, d_id, None
+
 async def main():
     guide = load_json('who-makes-the-best-guide.json')
     search_templates = load_json('dealer-search.json')
@@ -103,6 +112,9 @@ async def main():
         print(f"Found {len(watches)} watches in guide.")
         watches_to_scrape = watches
         
+        semaphore = asyncio.Semaphore(10)
+        tasks = []
+        
         for w in watches_to_scrape:
             brand = str(w.get('brand', '')).lower().replace(r'[^a-z0-9]', '')
             family = str(w.get('model_family', '')).lower()
@@ -117,19 +129,20 @@ async def main():
             q = sku if sku else f"{w.get('brand','')} {w.get('model_family','')}".strip()
             if not q: continue
             
-            offers = {}
             for d_id in DEALERS_TO_SCRAPE:
                 tmpl = search_templates.get(d_id, {}).get('template')
                 if not tmpl: continue
                 search_url = tmpl.replace('{q}', urllib.parse.quote(q))
-                offer = await scrape_dealer(context, d_id, search_url)
-                if offer:
-                    offer['scraped_at'] = catalog['scraped_at']
-                    offers[d_id] = offer
-                    print(f"Found offer for {watch_id} at {d_id}: ${offer['price']}")
-            
-            if offers:
-                catalog['offers'][watch_id] = offers
+                tasks.append(scrape_with_semaphore(semaphore, context, d_id, search_url, watch_id, catalog))
+                
+        print(f"Starting {len(tasks)} parallel scraping tasks...")
+        results = await asyncio.gather(*tasks)
+        
+        for watch_id, d_id, offer in results:
+            if offer:
+                if watch_id not in catalog['offers']:
+                    catalog['offers'][watch_id] = {}
+                catalog['offers'][watch_id][d_id] = offer
 
         await browser.close()
 
