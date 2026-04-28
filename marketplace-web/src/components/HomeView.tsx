@@ -4,6 +4,7 @@ import { useState, useMemo, useEffect } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import { AppState, WatchRecord } from "@/lib/types";
 import { tokenize, bestTierRank, getLowestPrice } from "@/lib/utils";
+import { watchImageUrl } from "@/lib/images";
 import { ArrowRightIcon, WatchIcon, ArrowLeftIcon } from "lucide-react";
 
 export default function HomeView({ state }: { state: AppState }) {
@@ -76,15 +77,8 @@ export default function HomeView({ state }: { state: AppState }) {
     router.push('/');
   };
 
-  const navigateToFamily = (brand: string, family: string) => {
-    // Basic navigation or modal opening could happen here.
-    // For now we will push to a generic route or just keep it simple.
-    // Wait, the current implementation doesn't have individual watch pages in the prototype,
-    // it just showed a WatchResult. We'll reuse the existing search logic or Family pages.
-    // Let's just push to search for now or rely on the fact that family cards navigated to a family page?
-    // Wait, the original `FamilyCard` navigated somewhere? Actually `HomeView` didn't have Next Link in FamilyCard, but it did something. Let's look at FamilyCard.tsx.
-    // I'll just push to search query for that family for now.
-    router.push(`/?q=${encodeURIComponent(brand + ' ' + family)}`);
+  const navigateToWatch = (id: string) => {
+    router.push(`/watch/${id}`);
   };
 
   return (
@@ -135,22 +129,30 @@ export default function HomeView({ state }: { state: AppState }) {
             <section key={brand} className="mb-12">
               <h3 className="text-2xl font-serif italic mb-6 text-ink">{brand}</h3>
               <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
-                {groupedWatches[brand].map((w, i) => (
+                {groupedWatches[brand].map((w, i) => {
+                  const imgUrl = watchImageUrl(w, state);
+                  return (
                   <div 
                     key={`${w.reference}-${i}`}
-                    onClick={() => navigateToFamily(w.brand, w.model_family)}
+                    onClick={() => navigateToWatch(w.id)}
                     className="group cursor-pointer flex flex-col bg-white border-2 border-line hover:shadow-[4px_4px_0px_var(--color-line)] transition-all overflow-hidden relative"
                   >
                     <div className="aspect-square bg-[#F7F7F5] flex items-center justify-center border-b-2 border-line relative overflow-hidden">
                       <div className="absolute inset-0 bg-gradient-to-br from-transparent to-black/5 mix-blend-multiply transition-opacity group-hover:opacity-50"></div>
                       
-                      <div className="w-20 h-20 rounded-full border-4 border-line/10 flex items-center justify-center bg-white/50 shadow-inner group-hover:scale-110 transition-transform duration-500">
-                        <WatchIcon className="w-8 h-8 text-line/40 group-hover:text-line/80 transition-colors duration-500" strokeWidth={1.5} />
-                      </div>
+                      {imgUrl ? (
+                        <img src={imgUrl} alt={w.model_family} className="w-full h-full object-contain p-4 mix-blend-multiply group-hover:scale-105 transition-transform duration-500" />
+                      ) : (
+                        <div className="w-20 h-20 rounded-full border-4 border-line/10 flex items-center justify-center bg-white/50 shadow-inner group-hover:scale-110 transition-transform duration-500">
+                          <WatchIcon className="w-8 h-8 text-line/40 group-hover:text-line/80 transition-colors duration-500" strokeWidth={1.5} />
+                        </div>
+                      )}
                       
-                      <div className="absolute bottom-2 right-2 text-[8px] font-mono text-line/40 uppercase font-bold tracking-widest">
-                        IMAGE PENDING
-                      </div>
+                      {!imgUrl && (
+                        <div className="absolute bottom-2 right-2 text-[8px] font-mono text-line/40 uppercase font-bold tracking-widest">
+                          IMAGE PENDING
+                        </div>
+                      )}
 
                       {w.recommendations && w.recommendations[0]?.tier && (
                         <div className="absolute top-2 left-2 bg-emerald-50 text-emerald-800 border border-emerald-800/30 px-1.5 py-0.5 text-[8px] font-bold tracking-wider uppercase shadow-sm">
@@ -172,7 +174,8 @@ export default function HomeView({ state }: { state: AppState }) {
                       </div>
                     </div>
                   </div>
-                ))}
+                  );
+                })}
               </div>
             </section>
           ))}
@@ -187,14 +190,21 @@ export default function HomeView({ state }: { state: AppState }) {
           </button>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-             {searchResults?.map(w => (
+              {searchResults?.map(w => {
+                const imgUrl = watchImageUrl(w, state);
+                return (
                 <div 
                   key={w.id}
-                  className="flex flex-col bg-white border-2 border-line hover:shadow-[4px_4px_0px_var(--color-line)] transition-all overflow-hidden"
+                  onClick={() => navigateToWatch(w.id)}
+                  className="flex flex-col bg-white border-2 border-line hover:shadow-[4px_4px_0px_var(--color-line)] transition-all overflow-hidden cursor-pointer"
                 >
                   <div className="p-4 bg-surface-2 border-b-2 border-line flex items-center gap-4">
-                     <div className="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center shrink-0 border border-line">
-                       <WatchIcon className="w-6 h-6 text-line/50" />
+                     <div className="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center shrink-0 border border-line overflow-hidden">
+                       {imgUrl ? (
+                         <img src={imgUrl} alt={w.model_family} className="w-full h-full object-contain mix-blend-multiply" />
+                       ) : (
+                         <WatchIcon className="w-6 h-6 text-line/50" />
+                       )}
                      </div>
                      <div>
                        <div className="text-[10px] font-mono opacity-60">{w.brand}</div>
@@ -215,7 +225,8 @@ export default function HomeView({ state }: { state: AppState }) {
                      ))}
                   </div>
                 </div>
-             ))}
+                );
+             })}
              {searchResults?.length === 0 && (
                <div className="col-span-full py-12 text-center border-2 border-dashed border-line/30">
                   <div className="text-sm font-mono opacity-50 uppercase">No Matches Found</div>
