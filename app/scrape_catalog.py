@@ -118,7 +118,7 @@ async def main():
         for w in watches_to_scrape:
             brand = str(w.get('brand', '')).lower().replace(r'[^a-z0-9]', '')
             family = str(w.get('model_family', '')).lower()
-            ref = str(w.get('reference', ''))
+            ref = str(w.get('model_number', w.get('reference', '')))
             
             import re
             slugify = lambda s: re.sub(r'^-+|-+$', '', re.sub(r'[^a-z0-9]+', '-', str(s or '').lower()))

@@ -5,6 +5,7 @@ import { useSearchParams, useRouter } from "next/navigation";
 import { AppState, WatchRecord } from "@/lib/types";
 import { tokenize, bestTierRank, getLowestPrice } from "@/lib/utils";
 import { watchImageUrl } from "@/lib/images";
+import Link from "next/link";
 import { ArrowRightIcon, WatchIcon, ArrowLeftIcon } from "lucide-react";
 
 export default function HomeView({ state }: { state: AppState }) {
@@ -77,10 +78,6 @@ export default function HomeView({ state }: { state: AppState }) {
     router.push('/');
   };
 
-  const navigateToWatch = (id: string) => {
-    router.push(`/watch/${id}`);
-  };
-
   return (
     <div className="w-full flex-1">
       <div className="flex flex-col sm:flex-row sm:justify-between sm:items-end mb-8 shrink-0 gap-4">
@@ -132,10 +129,10 @@ export default function HomeView({ state }: { state: AppState }) {
                 {groupedWatches[brand].map((w, i) => {
                   const imgUrl = watchImageUrl(w, state);
                   return (
-                  <div 
+                  <Link 
+                    href={`/watch/${w.id}`}
                     key={`${w.reference}-${i}`}
-                    onClick={() => navigateToWatch(w.id)}
-                    className="group cursor-pointer flex flex-col bg-white border-2 border-line hover:shadow-[4px_4px_0px_var(--color-line)] transition-all overflow-hidden relative"
+                    className="group flex flex-col bg-white border-2 border-line hover:shadow-[4px_4px_0px_var(--color-line)] transition-all overflow-hidden relative"
                   >
                     <div className="aspect-square bg-[#F7F7F5] flex items-center justify-center border-b-2 border-line relative overflow-hidden">
                       <div className="absolute inset-0 bg-gradient-to-br from-transparent to-black/5 mix-blend-multiply transition-opacity group-hover:opacity-50"></div>
@@ -173,7 +170,7 @@ export default function HomeView({ state }: { state: AppState }) {
                         <ArrowRightIcon className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity -translate-x-2 group-hover:translate-x-0 duration-300" />
                       </div>
                     </div>
-                  </div>
+                  </Link>
                   );
                 })}
               </div>
@@ -193,10 +190,10 @@ export default function HomeView({ state }: { state: AppState }) {
               {searchResults?.map(w => {
                 const imgUrl = watchImageUrl(w, state);
                 return (
-                <div 
+                <Link 
+                  href={`/watch/${w.id}`}
                   key={w.id}
-                  onClick={() => navigateToWatch(w.id)}
-                  className="flex flex-col bg-white border-2 border-line hover:shadow-[4px_4px_0px_var(--color-line)] transition-all overflow-hidden cursor-pointer"
+                  className="flex flex-col bg-white border-2 border-line hover:shadow-[4px_4px_0px_var(--color-line)] transition-all overflow-hidden"
                 >
                   <div className="p-4 bg-surface-2 border-b-2 border-line flex items-center gap-4">
                      <div className="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center shrink-0 border border-line overflow-hidden">
