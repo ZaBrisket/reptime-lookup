@@ -221,7 +221,7 @@ export default function HomeView({ state }: { state: AppState }) {
                         </div>
                      ))}
                   </div>
-                </div>
+                </Link>
                 );
              })}
              {searchResults?.length === 0 && (
